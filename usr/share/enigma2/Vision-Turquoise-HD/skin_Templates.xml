@@ -1,30 +1,5 @@
-	<!--
-################### © Daconi MODE_пожар btvadriatico_NORHAP All Models ####################
-###################    SKIN COLLECTION 720p FOR NORHAP ALL MODELS     #################### 
-           
-
-   
-                       ??????     ???    ??????  ???????  ??   ?  ??
-                       ?    ??   ?? ??   ??      ??    ?  ???  ?  ??
-                       ?   ???  ???????  ??      ??    ?  ? ?? ?  ??
-                       ??????   ?    ??  ??????  ???????  ?  ???  ??
-					   
-					   
-           Esta piel está protegido por copyright 
-           Puede cambiar este aspecto SOLAMENTE PARA EL USO PERSONAL, PERO NO 'POSIBLE USO
-           CÓDIGO DE GRÁFICOS Y lo mismo para ellos uno nuevo o adaptar este CON LA PIEL
-           diferentes imágenes.
-	
-	################### © Daconi All Models ###################
-	
-	-->
-	
-
 <skin>
-
-	
 	<!-- ####### TEMPLATES ####### -->
-
 	<!-- ####### SCROLLBAR BASE TEMPLATE ####### -->
 	<screen name="ScrollBarTemplate">
 	<!-- scrollbar background -->
@@ -545,7 +520,7 @@
 		<widget name="config" position="58,155" size="748,425" font="Regular;19" backgroundColor="#00030303" scrollbarMode="showAlways" transparent="1"/>
         <widget name="description" objectTypes="description,Button,Label" position="845,430" size="380,195" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" transparent="1"/>
         <widget name="description" position="845,430" size="380,195" zPosition="10" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" transparent="1"/>
-		<widget name="HelpWindow" conditional="HelpWindow" position="682,599" size="1,1" pixmap="/usr/share/enigma2/skin_default/buttons/vkey_icon.png" transparent="1" zPosition="1" alphatest="blend"/>
+		<widget name="HelpWindow" conditional="HelpWindow" position="682,599" size="1,1" pixmap="buttons/vkey_icon.png" transparent="1" zPosition="1" alphatest="blend"/>
 		<widget source="VKeyIcon" conditional="VKeyIcon" render="Pixmap" pixmap="icons/key_text.png" position="640,680" zPosition="2" size="40,22" transparent="1" alphatest="on">
 			<convert type="ConditionalShowHide"/>
 		</widget>

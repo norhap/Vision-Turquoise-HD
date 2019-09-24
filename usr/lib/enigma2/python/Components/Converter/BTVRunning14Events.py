@@ -1,8 +1,6 @@
-# Embedded file name: /usr/lib/enigma2/python/Components/Converter/BTVRunning14Events.py
 from Components.Converter.Converter import Converter
 from Components.Element import cached
-from Components.VariableText import VariableText
-from enigma import eLabel, eEPGCache, eServiceReference
+from enigma import eEPGCache, eServiceReference
 from time import localtime, strftime, mktime, time
 from datetime import datetime
 

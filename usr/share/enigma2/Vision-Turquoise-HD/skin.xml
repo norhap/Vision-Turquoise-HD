@@ -1,25 +1,4 @@
 <skin>
-	<!--
-################### © Daconi MODE_пожар btvadriatico_NORHAP All Models ####################
-###################    SKIN COLLECTION 720p FOR NORHAPTV ALL MODELS     #################### 
-           
-
-   
-                       ??????     ???    ??????  ???????  ??   ?  ??
-                       ?    ??   ?? ??   ??      ??    ?  ???  ?  ??
-                       ?   ???  ???????  ??      ??    ?  ? ?? ?  ??
-                       ??????   ?    ??  ??????  ???????  ?  ???  ??
-					   
-					   
-           Esta piel está protegido por copyright 
-           Puede cambiar este aspecto SOLAMENTE PARA EL USO PERSONAL, PERO NO 'POSIBLE USO
-           CÓDIGO DE GRÁFICOS Y lo mismo para ellos uno nuevo o adaptar este CON LA PIEL
-           diferentes imágenes.
-	
-	################### © Daconi All Models ###################
-	
-	********** -->
-	
 	<output id="0">
 		<resolution xres="1280" yres="720" bpp="32"/>
 	</output>
@@ -1040,17 +1019,17 @@
         <panel name="MainHelp"/>	
         <panel name="Title_no_menu_patch"/>
         <panel name="PIG-MHELP"/>
-		<widget name="rc" position="135,115" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend"/>
+		<widget name="rc" position="135,115" size="154,500" pixmaps="rc.png,rcold.png" zPosition="10" alphatest="blend"/>
 		<widget name="long_key" position="309,200" zPosition="2" size="250,25" foregroundColor="#0000fafa" font="Regular;19" backgroundColor="#0003424a" transparent="1"/>
         <eLabel position="65,275" size="244,348" backgroundColor="#0003424a" zPosition="1"/>
         <eLabel position="65,97" size="765,183" backgroundColor="#0003424a" zPosition="1"/>
         <ePixmap pixmap="icons/parche.png" position="45,90" size="70,78" zPosition="2" alphatest="blend"/>	
 		<widget name="list" position="309,280" zPosition="1" size="920,343" backgroundColor="#0003424a" enableWrapAround="1" scrollbarMode="showOnDemand"/>		
         <ePixmap position="1204,275" zPosition="2" size="27,400" pixmap="icons/barra348.png" alphatest="blend" transparent="1"/>
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
 	</screen>
 	<!-- ####### LANGUAGE SELECTION ####### -->
 	<screen name="LanguageSelection" position="fill" title="Language selection" flags="wfNoBorder">
@@ -1179,11 +1158,11 @@
         <widget name="wizard" pixmap="icons/wizard.png" position="80,490" zPosition="10" size="140,188" alphatest="blend"/>			
 		<widget name="config" zPosition="1" position="80,150" size="560,200" backgroundColor="#03424a" scrollbarMode="showOnDemand" transparent="1"/>		
 		<widget name="text" position="70,150" size="450,240" zPosition="10" font="Regular;23" halign="center" valign="center" transparent="1"/>
-        <widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="1065,110" zPosition="10" size="154,500" alphatest="blend" transparent="1"/>		
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>		
+        <widget name="rc" pixmaps="rc.png,rcold.png" position="1065,110" zPosition="10" size="154,500" alphatest="blend" transparent="1"/>		
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>		
 		<widget source="list" render="Listbox" position="545,150" size="500,450" zPosition="10" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -1288,11 +1267,11 @@
 		<ePixmap pixmap="Vision-Turquoise-HD/buttons/key_red.png" position="90,354" zPosition="0" size="35,25" transparent="1" alphatest="blend"/>
 		<widget name="languagetext" position="130,355" size="200,90" font="Regular;19"/>
 		<widget name="wizard" pixmap="icons/wizard.png" position="90,140" zPosition="10" size="140,188" alphatest="blend"/>
-		<widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="950,110" zPosition="10" size="154,500" alphatest="blend" transparent="1"/>
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="rc" pixmaps="rc.png,rcold.png" position="950,110" zPosition="10" size="154,500" alphatest="blend" transparent="1"/>
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
 	</screen>		
 	<!-- ####### LENGUAJE WIZARD ####### -->
 	<screen name="LanguageWizard" position="fill" title="">
@@ -1306,11 +1285,11 @@
 		<widget source="global.CurrentTime" render="Label" position="1050,30" size="160,40" zPosition="2" font="LCD;38" valign="top" halign="center" foregroundColor="#004ccbde" backgroundColor="#00040404" transparent="1">
             <convert type="ClockToText">Format:%H:%M :%S</convert>
         </widget>
-		<widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="1065,110" zPosition="11" size="154,500" alphatest="blend" transparent="1"/>
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>		
+		<widget name="rc" pixmaps="rc.png,rcold.png" position="1065,110" zPosition="11" size="154,500" alphatest="blend" transparent="1"/>
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>		
 		<widget name="text" position="600,150" size="450,240" zPosition="10" font="Regular;23" halign="center" valign="center" transparent="1"/>
 		<widget source="languages" render="Listbox" position="100,135" size="500,450" zPosition="10" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="TemplatedMultiContent">
@@ -1332,11 +1311,11 @@
 		<ePixmap pixmap="Vision-Turquoise-HD/buttons/key_red.png" position="830,15" zPosition="0" size="35,25" transparent="1" alphatest="blend"/>	
         <widget name="languagetext" zPosition="15" position="870,0" size="500,55" font="Regular;19" halign="left" valign="center" transparent="1"/>
         <widget name="text" position="400,350" size="620,300" zPosition="15" font="Regular;23" halign="center" valign="center" transparent="1"/>		
-		<widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="1095,60" zPosition="11" size="154,500" alphatest="blend" transparent="1"/>
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="rc" pixmaps="rc.png,rcold.png" position="1095,60" zPosition="11" size="154,500" alphatest="blend" transparent="1"/>
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
         <widget name="wizard" pixmap="icons/wizard.png" position="870,30" zPosition="10" size="140,188" alphatest="blend"/>
 		<widget source="list" render="Listbox" position="80,170" size="750,220" transparent="1" backgroundColor="#00030303" scrollbarMode="showOnDemand" zPosition="3">
 			<convert type="StringList"/>
@@ -1348,11 +1327,11 @@
 		<ePixmap pixmap="Vision-Turquoise-HD/buttons/key_red.png" position="830,15" zPosition="0" size="35,25" transparent="1" alphatest="blend"/>	
         <widget name="languagetext" zPosition="15" position="870,0" size="500,55" font="Regular;19" halign="left" valign="center" transparent="1"/>
         <widget name="text" position="770,100" size="325,450" font="Regular;19" halign="center" valign="center" zPosition="15" transparent="1"/>		
-		<widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="1095,60" zPosition="11" size="154,500" alphatest="blend" transparent="1"/>
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="rc" pixmaps="rc.png,rcold.png" position="1095,60" zPosition="11" size="154,500" alphatest="blend" transparent="1"/>
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
         <widget name="wizard" pixmap="icons/wizard.png" position="870,30" zPosition="10" size="140,188" alphatest="blend"/>
         <widget name="stepslider" position="770,575" size="450,40" foregroundColor="#0000fafa" zPosition="15" transparent="1"/>
 	    <eLabel position="770,575" size="450,1" backgroundColor="#0000fafa" zPosition="16"/>
@@ -1391,11 +1370,11 @@
 		<ePixmap pixmap="Vision-Turquoise-HD/buttons/key_red.png" position="90,354" zPosition="0" size="35,25" transparent="1" alphatest="blend"/>
 		<widget name="languagetext" position="130,355" size="200,90" font="Regular;19"/>
 		<widget name="wizard" pixmap="icons/wizard.png" position="90,140" zPosition="10" size="140,188" alphatest="blend"/>
-		<widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="950,120" zPosition="10" size="154,500" alphatest="blend" transparent="1"/>
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="/usr/share/enigma2/skin_default/arrowup.png" zPosition="11" alphatest="blend"/>		
+		<widget name="rc" pixmaps="rc.png,rcold.png" position="950,120" zPosition="10" size="154,500" alphatest="blend" transparent="1"/>
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="arrowdown.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="arrowup.png" zPosition="11" alphatest="blend"/>		
 	</screen>
 	<!-- ####### AUTODISEQC EMPEZAR A SINTONIZAR TUNERS ####### -->
     <screen name="AutoDiseqc" position="fill" title="Auto DiseqC">
@@ -1417,9 +1396,9 @@
 		<widget name="config" position="50,300" zPosition="1" size="440,200" transparent="1" scrollbarMode="showOnDemand"/>
 		<widget name="wizard" pixmap="icons/wizard.png" position="40,50" zPosition="10" size="140,188" transparent="1" alphatest="on"/>
 		<widget name="rc" pixmap="rc.png" position="500,600" zPosition="10" size="154,500" transparent="1" alphatest="on"/>
-		<widget name="arrowdown" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
-		<widget name="arrowup" pixmap="/usr/share/enigma2/skin_default/arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
-		<widget name="arrowup2" pixmap="/usr/share/enigma2/skin_default/arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
+		<widget name="arrowdown" pixmap="arrowdown.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
+		<widget name="arrowup" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
+		<widget name="arrowup2" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
 	</screen>	
 	<!-- ####### Buscar redes inhalambricas ->OK-titulo seleccionar red inhalambrica ####### -->	
 	<screen name="WlanScan" position="fill" flags="wfNoBorder">
@@ -1483,7 +1462,7 @@
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget source="description" render="Label" position="842,426" size="370,132" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" transparent="1"/>
 		<widget source="Statustext" render="Label" position="70,500" foregroundColor="#004ccbde" backgroundColor="#00030303" size="150,40" font="Regular;24" transparent="1"/>
-		<widget name="statuspic" position="195,500" size="60,40" pixmaps="skin_default/icons/lock_on.png,icons/lock_error.png" zPosition="10" transparent="1" alphatest="on"/>
+		<widget name="statuspic" position="195,500" size="60,40" pixmaps="icons/lock_on.png,icons/lock_error.png" zPosition="10" transparent="1" alphatest="on"/>
 	</screen>	
 	<!-- **********Configuracion del Adaptador->OK WLAN O LAN RED LOCAL********** -->
 	<screen name="AdapterSetup" position="fill" flags="wfNoBorder">
@@ -1530,30 +1509,30 @@
         <panel name="sRGY"/>		
         <panel name="PantallaGenerica_sRGY"/>
 		<panel name="ScrollBarTemplate"/>		
-		<widget name="AdapterInfo_OK" position="310,152" size="38,31" zPosition="2" pixmap="skin_default/icons/lock_on.png" alphatest="blend"/>
+		<widget name="AdapterInfo_OK" position="310,152" size="38,31" zPosition="2" pixmap="icons/lock_on.png" alphatest="blend"/>
 		<widget name="Adaptertext" position="80,150" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ffffff" backgroundColor="#00030303" transparent="1"/>
 		<widget name="Adapter" position="345,150" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ff0d0d,#00ffffff" backgroundColor="#00030303" transparent="1"/>
-		<widget name="NetworkInfo_Check" position="310,202" size="38,31" zPosition="2" pixmaps="skin_default/icons/lock_on.png,skin_default/icons/lock_error.png" alphatest="blend"/>
+		<widget name="NetworkInfo_Check" position="310,202" size="38,31" zPosition="2" pixmaps="icons/lock_on.png,icons/lock_error.png" alphatest="blend"/>
 		<widget name="Networktext" position="80,200" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ffffff" backgroundColor="#00030303" transparent="1"/>
 		<widget name="Network" position="345,200" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ff0d0d,#00ffffff" backgroundColor="#00030303" transparent="1"/>
-		<widget name="DhcpInfo_Check" position="310,252" size="38,31" zPosition="2" pixmaps="skin_default/icons/lock_on.png,skin_default/icons/lock_error.png" alphatest="blend"/>
+		<widget name="DhcpInfo_Check" position="310,252" size="38,31" zPosition="2" pixmaps="icons/lock_on.png,icons/lock_error.png" alphatest="blend"/>
 		<widget name="Dhcptext" position="80,250" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ffffff" backgroundColor="#00030303" transparent="1"/>
 		<widget name="Dhcp" position="345,250" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ff0d0d,#00ffffff" backgroundColor="#00030303" transparent="1"/>
-		<widget name="IPInfo_Check" position="310,302" size="38,31" zPosition="2" pixmaps="skin_default/icons/lock_on.png,skin_default/icons/lock_error.png" alphatest="blend"/>
+		<widget name="IPInfo_Check" position="310,302" size="38,31" zPosition="2" pixmaps="icons/lock_on.png,icons/lock_error.png" alphatest="blend"/>
 		<widget name="IPtext" position="80,300" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ffffff" backgroundColor="#00030303" transparent="1"/>
 		<widget name="IP" position="345,300" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ff0d0d,#00ffffff" backgroundColor="#00030303" transparent="1"/>
-		<widget name="DNSInfo_Check" position="310,352" size="38,31" zPosition="2" pixmaps="skin_default/icons/lock_on.png,skin_default/icons/lock_error.png" alphatest="blend"/>
+		<widget name="DNSInfo_Check" position="310,352" size="38,31" zPosition="2" pixmaps="icons/lock_on.png,icons/lock_error.png" alphatest="blend"/>
 		<widget name="DNStext" position="80,350" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ffffff" backgroundColor="#00030303" transparent="1"/>
 		<widget name="DNS" position="345,350" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ff0d0d,#00ffffff" backgroundColor="#00030303" transparent="1"/>
-		<widget name="AdapterInfo" position="755,150" size="318,50" pixmaps="skin_default/icons/lock_off.png,skin_default/icons/lock_on.png" alphatest="blend" zPosition="1"/>
+		<widget name="AdapterInfo" position="755,150" size="318,50" pixmaps="icons/lock_off.png,icons/lock_on.png" alphatest="blend" zPosition="1"/>
 		<widget name="AdapterInfo_Text" position="545,150" size="318,50" zPosition="2" font="Regular;20" transparent="1" foregroundColors="#0000fafa,#0073c6ff,#00009a00" backgroundColor="#00030303"/>
-		<widget name="NetworkInfo" position="755,200" size="318,50" pixmaps="skin_default/icons/lock_off.png,skin_default/icons/lock_on.png" alphatest="blend" zPosition="1"/>
+		<widget name="NetworkInfo" position="755,200" size="318,50" pixmaps="icons/lock_off.png,icons/lock_on.png" alphatest="blend" zPosition="1"/>
 		<widget name="NetworkInfo_Text" position="545,200" size="318,50" zPosition="2" font="Regular;20" transparent="1" foregroundColors="#0000fafa,#0073c6ff,#00009a00" backgroundColor="#00030303"/>
-		<widget name="DhcpInfo" position="755,250" size="318,50" pixmaps="skin_default/icons/lock_off.png,skin_default/icons/lock_on.png" alphatest="blend" zPosition="1"/>
+		<widget name="DhcpInfo" position="755,250" size="318,50" pixmaps="icons/lock_off.png,icons/lock_on.png" alphatest="blend" zPosition="1"/>
 		<widget name="DhcpInfo_Text" position="545,250" size="318,50" zPosition="2" font="Regular;20" transparent="1" foregroundColors="#0000fafa,#0073c6ff,#00009a00" backgroundColor="#00030303"/>
-		<widget name="IPInfo" position="755,300" size="318,50" pixmaps="skin_default/icons/lock_off.png,skin_default/icons/lock_on.png" alphatest="blend" zPosition="1"/>
+		<widget name="IPInfo" position="755,300" size="318,50" pixmaps="icons/lock_off.png,icons/lock_on.png" alphatest="blend" zPosition="1"/>
 		<widget name="IPInfo_Text" position="545,300" size="318,50" zPosition="2" font="Regular;20" transparent="1" foregroundColors="#0000fafa,#0073c6ff,#00009a00" backgroundColor="#00030303"/>
-		<widget name="DNSInfo" position="755,350" size="318,50" zPosition="1" pixmaps="skin_default/icons/lock_off.png,skin_default/icons/lock_on.png" alphatest="blend"/>
+		<widget name="DNSInfo" position="755,350" size="318,50" zPosition="1" pixmaps="icons/lock_off.png,icons/lock_on.png" alphatest="blend"/>
 		<widget name="DNSInfo_Text" position="545,350" size="318,50" zPosition="2" font="Regular;20" transparent="1" foregroundColors="#0000fafa,#0073c6ff,#00009a00" backgroundColor="#00030303"/>
 		<widget name="InfoText" position="125,345" size="585,300" zPosition="2" font="Regular;19" transparent="1" valign="center" halign="center" foregroundColor="#0000fafa" backgroundColor="#00030303"/>
 		<widget name="InfoTextBorder" position="120,340" size="595,310" zPosition="2"/>
@@ -1572,11 +1551,11 @@
 		<ePixmap pixmap="Vision-Turquoise-HD/buttons/key_red.png" position="90,354" zPosition="0" size="35,25" transparent="1" alphatest="blend"/>
 		<widget name="languagetext" position="130,355" size="150,30" font="Regular;19"/>
 		<widget name="wizard" pixmap="icons/wizard.png" position="90,140" zPosition="10" size="140,188" alphatest="blend"/>
-		<widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="950,110" zPosition="10" size="154,500" alphatest="blend" transparent="1"/>
-		<widget name="arrowdown" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>
-		<widget name="arrowdown2" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>
-		<widget name="arrowup" pixmap="/usr/share/enigma2/skin_default/arrowup.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>
-		<widget name="arrowup2" pixmap="/usr/share/enigma2/skin_default/arrowup.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>	
+		<widget name="rc" pixmaps="rc.png,rcold.png" position="950,110" zPosition="10" size="154,500" alphatest="blend" transparent="1"/>
+		<widget name="arrowdown" pixmap="arrowdown.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>
+		<widget name="arrowdown2" pixmap="arrowdown.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>
+		<widget name="arrowup" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>
+		<widget name="arrowup2" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>	
 		<widget name="HelpWindow" position="682,599" size="1,1" transparent="1" zPosition="1" alphatest="on"/>
 		<widget source="VKeyIcon" render="Pixmap" pixmap="icons/key_text.png" position="640,610" zPosition="2" size="40,22" transparent="1" alphatest="on">
 			<convert type="ConditionalShowHide"/>
@@ -1617,7 +1596,7 @@
 		<widget source="enc" render="Label" position="390,455" size="495,37" valign="center" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget source="Statustext" render="Label" position="80,530" foregroundColor="#004ccbde" backgroundColor="#00030303" size="150,40" zPosition="10" font="Regular;19" transparent="1"/>
-		<widget name="statuspic" position="385,530" size="60,40" pixmaps="skin_default/icons/lock_on.png,icons/lock_error.png" zPosition="10" transparent="1" alphatest="on"/>
+		<widget name="statuspic" position="385,530" size="60,40" pixmaps="icons/lock_on.png,icons/lock_error.png" zPosition="10" transparent="1" alphatest="on"/>
 	</screen>
 	
 	<!-- ********** Configuracion de Montajes OK********** -->
@@ -3786,7 +3765,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget source="IFtext" render="Label" position="80,470" size="120,25" font="Regular;20" halign="left" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 		<widget source="IF" render="Label" position="245,470" size="400,25" font="Regular;20" halign="left" transparent="1" backgroundColor="#00030303" zPosition="10"/>
 		<widget source="Statustext" render="Label" position="80,520" size="120,25" font="Regular;20" halign="left" backgroundColor="#00030303" transparent="1"/>
-		<widget name="statuspic" position="240,520" size="30,25" pixmaps="skin_default/icons/lock_on.png,icons/lock_error.png" alphatest="on" transparent="1"/>
+		<widget name="statuspic" position="240,520" size="30,25" pixmaps="icons/lock_on.png,icons/lock_error.png" alphatest="on" transparent="1"/>
 		<ePixmap position="925,414" size="256,256" pixmap="menu/ico_wlan.png" alphatest="blend"/>
 	</screen>
 	<screen name="ServiceInfoSimple" position="fill" flags="wfNoBorder">
@@ -4883,10 +4862,10 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	    <eLabel position="95,588" size="210,1" backgroundColor="#0000fafa" zPosition="16"/>
 	    <eLabel position="305,565" size="1,24" backgroundColor="#0000fafa" zPosition="16"/>		
 		<widget name="wizard" pixmap="icons/wizard.png" position="330,240" zPosition="10" size="140,188" alphatest="blend"/>
-		<widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="600,120" zPosition="10" size="0,0" alphatest="blend"/>
-		<widget name="arrowdown" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" position="-100,-100" zPosition="11" size="0,0" alphatest="blend"/>
-		<widget name="arrowup" pixmap="/usr/share/enigma2/skin_default/arrowup.png" position="-100,-100" zPosition="11" size="0,0" alphatest="blend"/>
-		<widget name="arrowdown2" pixmap="/usr/share/enigma2/skin_default/arrowdown.png" position="-100,-100" zPosition="11" size="0,0" alphatest="blend"/>		
+		<widget name="rc" pixmaps="rc.png,rcold.png" position="600,120" zPosition="10" size="0,0" alphatest="blend"/>
+		<widget name="arrowdown" pixmap="arrowdown.png" position="-100,-100" zPosition="11" size="0,0" alphatest="blend"/>
+		<widget name="arrowup" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="0,0" alphatest="blend"/>
+		<widget name="arrowdown2" pixmap="arrowdown.png" position="-100,-100" zPosition="11" size="0,0" alphatest="blend"/>		
 		<widget name="HelpWindow" position="682,599" size="1,1" transparent="1" zPosition="1" alphatest="on"/>
 		<widget source="VKeyIcon" render="Pixmap" pixmap="icons/key_text.png" position="640,610" zPosition="2" size="40,22" transparent="1" alphatest="on">
 			<convert type="ConditionalShowHide"/>
@@ -4912,8 +4891,8 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<eLabel position="910,144" size="324,1" backgroundColor="#004ccbde" zPosition="3"/>		
 		<widget name="DescriptionBorder" position="10,400" size="503,0" zPosition="3" transparent="1"/>
         <widget name="chosenletter" position="845,345" size="380,185" font="Regular;50" halign="center" valign="center" transparent="1" zPosition="4"/>
-        <widget name="movie_sort" position="55,110" size="35,20" pixmaps="skin_default/icons/ask.png,skin_default/icons/movielist.png,skin_default/icons/quit.png,skin_default/icons/pause.png,skin_default/icons/playlist.png,skin_default/icons/playlistquit.png,skin_default/icons/loop.png,skin_default/icons/rep.png"	zPosition="10" transparent="1" alphatest="on"/>
-        <widget name="movie_off" position="55,135" size="35,20" pixmaps="skin_default/icons/ask.png,skin_default/icons/movielist.png,skin_default/icons/quit.png,skin_default/icons/pause.png,skin_default/icons/playlist.png,skin_default/icons/playlistquit.png,skin_default/icons/loop.png,skin_default/icons/rep.png"	zPosition="10" transparent="1" alphatest="on"/>
+        <widget name="movie_sort" position="55,110" size="35,20" pixmaps="icons/ask.png,icons/movielist.png,icons/quit.png,icons/pause.png,icons/playlist.png,icons/playlistquit.png,icons/loop.png,icons/rep.png"	zPosition="10" transparent="1" alphatest="on"/>
+        <widget name="movie_off" position="55,135" size="35,20" pixmaps="icons/ask.png,icons/movielist.png,icons/quit.png,icons/pause.png,icons/playlist.png,icons/playlistquit.png,icons/loop.png,icons/rep.png"	zPosition="10" transparent="1" alphatest="on"/>
         <widget source="Service" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,steptime=90,wrap=1,always=0,repeat=2,oneshot=1" position="905,320" zPosition="4" size="330,173" font="Regular;19" foregroundColor="#00a1d1ff" backgroundColor="#00030303" transparent="0" halign="center" valign="top">
             <convert type="EventName">ExtendedDescription</convert>
         </widget>
@@ -4979,7 +4958,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget name="playlist" position="680,160" size="550,250" zPosition="2" scrollbarMode="showOnDemand" transparent="1"/>
 		<widget name="currenttext" position="465,120" size="0,0"/>
 		<widget name="titletext" position="465,120" size="0,0"/>
-		<widget name="coverArt" position="930,415" size="120,110" pixmap="/usr/share/enigma2/skin_default/no_coverArt.png" transparent="1" alphatest="blend"/>
+		<widget name="coverArt" position="930,415" size="120,110" pixmap="no_coverArt.png" transparent="1" alphatest="blend"/>
 		<widget name="artisttext" position="1054,415" size="74,22" foregroundColor="#004ccbde" font="Regular;19" valign="top" transparent="1"/>
 		<widget name="artist" position="1134,415" size="315,22" foregroundColor="#004ccbde" font="Regular;19" valign="top" transparent="1"/>
 		<widget name="albumtext" position="1054,440" size="74,22" foregroundColor="#004ccbde" font="Regular;19" valign="top" transparent="1"/>
@@ -5008,7 +4987,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget name="artistAT" position="465,120" size="0,0"/>
 		<widget name="artistATtxt" position="465,120" size="0,0"/>
 		<widget name="albumAT" position="465,120" size="0,0"/>
-		<widget name="CoverBg" position="660,400" size="0,0" pixmap="/usr/share/enigma2/skin_default/no_coverArt.png" transparent="1" alphatest="blend"/>
+		<widget name="CoverBg" position="660,400" size="0,0" pixmap="no_coverArt.png" transparent="1" alphatest="blend"/>
 		<widget name="size" position="784,400" size="0,0" foregroundColor="#004ccbde" font="Regular;19" valign="top" transparent="1"/>
 		<widget name="date" position="864,400" size="0,0" foregroundColor="#004ccbde" font="Regular;19" valign="top" transparent="1"/>
 		<widget name="albumATtxt" position="784,425" size="0,0" foregroundColor="#004ccbde" font="Regular;19" valign="top" transparent="1"/>
