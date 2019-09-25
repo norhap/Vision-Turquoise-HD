@@ -1572,6 +1572,17 @@
 		<widget source="introduction" render="Label" position="845,435" size="380,160" halign="center" valign="center" font="Regular;19" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" transparent="1" zPosition="2"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>	
 	</screen>
+	<!-- **********Network IPv6 Setup********** -->
+    <screen name="IPv6Setup" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenerica_sRG"/>	
+		<panel name="ScrollBarTemplate"/>
+        <panel name="Title"/>
+        <panel name="PIG"/>
+        <panel name="sRG"/>		
+		<widget name="config" position="80,140" size="690,400" scrollbarMode="showOnDemand" itemHeight="25" backgroundColor="#00030303" transparent="1"/>
+		<widget source="introduction" render="Label" position="845,435" size="380,160" halign="center" valign="center" font="Regular;19" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" transparent="1" zPosition="2"/>
+		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
+	</screen>	
 	
 	<!-- ####### MENU CON WIFI WLAN CONECTADA DATOS DE RED ####### -->
 	<screen name="WlanStatus" position="fill" flags="wfNoBorder">	
