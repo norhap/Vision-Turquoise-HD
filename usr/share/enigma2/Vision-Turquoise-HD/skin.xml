@@ -73,112 +73,16 @@
 	    <pixmap pos="bpBottom" filename="icons/def-bar.png"/>
 	</borderset>
 	</windowstyle>
-	    <include filename="/usr/share/enigma2/Vision-Turquoise-HD/skin_Templates.xml"/>
+	<include filename="/usr/share/enigma2/Vision-Turquoise-HD/skin_Templates.xml"/>
+	
 	<!-- **********Menu Horizontal********** -->	
-	<screen name="Animmain" position="0,575" size="1280,265" title="Mainmenu">	
-	    <eLabel position="0,25" size="252,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="0,25" size="1,80" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="0,104" size="252,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="252,25" size="1,80" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********label2********** -->
-	    <eLabel position="257,25" size="252,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="257,25" size="1,80" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="257,104" size="252,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="509,25" size="1,80" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********label3********** -->
-        <eLabel position="515,26" size="252,88" backgroundColor="#0003424a" zPosition="1"/>	
-	    <eLabel position="514,25" size="252,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="514,25" size="1,89" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="514,114" size="252,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="766,25" size="1,89" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********label4********** -->	
-	    <eLabel position="771,25" size="252,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="771,25" size="1,80" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="771,104" size="252,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="1023,25" size="1,80" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********label5********** -->
-	    <eLabel position="1028,25" size="252,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="1028,25" size="1,80" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="1028,104" size="252,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="1279,25" size="1,80" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********contenido********** -->	
-		<widget name="title" position="390,0" size="500,50" zPosition="3" halign="center" valign="top" foregroundColor="#0000baff" backgroundColor="#00030303" font="Regular;24" transparent="1"/> 
-	    <widget source="label1" render="Label" position="25,22" size="210,80" font="Regular;19" halign="center" valign="center" zPosition="2" transparent="1"/>
-	    <widget source="label2" render="Label" position="280,22" size="210,80" font="Regular;19" halign="center" valign="center" zPosition="2" transparent="1"/>
-	    <widget source="label3" render="Label" position="535,22" size="210,91" font="Regular;19" halign="center" valign="top" foregroundColor="#0000fafa" zPosition="2" transparent="1"/>
-	    <widget source="label4" render="Label" position="795,22" size="210,80" font="Regular;17" halign="center" valign="center" zPosition="2" transparent="1"/> 
-	    <widget source="label5" render="Label" position="1040,22" size="210,80" font="Regular;19" halign="center" valign="center" zPosition="2" transparent="1"/>
-		<ePixmap position="95,90" zPosition="1" size="600,45" pixmap="Vision-Turquoise-HD/menu/colorbarRG.png" alphatest="blend" transparent="1"/>		
-		<widget name="red" position="98,105" zPosition="2" size="140,20" font="Regular;16" transparent="1"/>
-		<widget name="green" position="298,105" zPosition="2" size="140,20" font="Regular;16" transparent="1"/>
-		<widget name="yellow" position="498,105" zPosition="2" size="0,0" font="Regular;16" transparent="1"/>
-		<widget name="blue" position="698,105" zPosition="2" size="140,20" font="Regular;16" transparent="1"/>
-		<ePixmap position="1135,107" zPosition="1" size="45,22" pixmap="icons/key_prev_next.png" alphatest="blend" transparent="1"/>		
+	<screen name="Animmain" position="0,575" size="1280,265" title="Mainmenu">
+	<panel name="Anime"/>
 	</screen>
+	
 	<!-- **********Menu Horizontal iconos********** -->		
-	<screen name="Iconmain" position="0,565" size="1280,280" title="Mainmenu">	
-        <eLabel position="0,21" size="210,94" backgroundColor="#0003424a" zPosition="1"/>	
-	    <eLabel position="0,20" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="0,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="0,114" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="210,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********label2********** -->
-        <eLabel position="216,21" size="210,94" backgroundColor="#0003424a" zPosition="1"/>	
-	    <eLabel position="215,20" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="215,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="215,114" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="425,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********label3********** -->
-        <eLabel position="431,21" size="210,94" backgroundColor="#0003424a" zPosition="1"/>	
-	    <eLabel position="430,20" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="430,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="430,114" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="640,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********label4********** -->
-        <eLabel position="646,21" size="210,94" backgroundColor="#0003424a" zPosition="1"/>	
-	    <eLabel position="645,20" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="645,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="645,114" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="855,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********label5********** -->
-        <eLabel position="861,21" size="210,94" backgroundColor="#0003424a" zPosition="1"/>	
-	    <eLabel position="860,20" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="860,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="860,114" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="1070,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********label6********** -->
-        <eLabel position="1076,21" size="210,94" backgroundColor="#0003424a" zPosition="1"/>	
-	    <eLabel position="1075,20" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="1075,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="1075,114" size="210,1" backgroundColor="#0000fafa" zPosition="1"/>
-	    <eLabel position="1279,20" size="1,95" backgroundColor="#0000fafa" zPosition="1"/>
-	<!-- **********contenido********** -->	
-		<widget name="title" position="395,0" size="500,50" zPosition="3" halign="center" valign="top" foregroundColor="#0000baff" backgroundColor="#00030303" font="Regular;17" transparent="1"/>
-		<widget name="pointer" position="505,3" size="26,16" zPosition="3" backgroundColor="#00030303" transparent="1" alphatest="blend"/>			
-		<widget source="label1" render="Label" position="50,20" size="210,95" font="Regular;19" halign="left" valign="center" zPosition="2" transparent="1"/>			
-		<widget source="label1s" render="Label" position="50,20" size="210,95" font="Regular;19" halign="left" valign="top" zPosition="2" foregroundColor="#0000fafa" transparent="1"/>
-		<!--widget name="pixmap1" position="55,35" size="320,70" zPosition="1" alphatest="on"/-->
-		<widget source="label2" render="Label" position="215,20" size="210,95" font="Regular;16" halign="center" valign="center" zPosition="2" transparent="1"/>
-		<widget source="label2s" render="Label" position="215,20" size="210,95" font="Regular;16" halign="center" valign="top" zPosition="2" foregroundColor="#0000fafa" transparent="1"/>
-		<!--widget name="pixmap2" position="215,35" size="320,70" zPosition="1" alphatest="on"/-->
-		<widget source="label3" render="Label" position="430,20" size="210,95" font="Regular;19" halign="center" valign="center" zPosition="2" transparent="1"/>
-		<widget source="label3s" render="Label" position="430,20" size="210,95" font="Regular;19" halign="center" valign="top" zPosition="2" foregroundColor="#0000fafa" transparent="1"/>
-		<!--widget name="pixmap3" position="430,35" size="210,70" zPosition="1" alphatest="on"/-->
-		<widget source="label4" render="Label" position="645,20" size="210,95" font="Regular;16" halign="center" valign="center" zPosition="2" transparent="1"/> 
-		<widget source="label4s" render="Label" position="645,20" size="210,95" font="Regular;16" halign="center" valign="top" zPosition="2" foregroundColor="#0000fafa" transparent="1"/> 
-		<!--widget name="pixmap4" position="645,35" size="320,70" zPosition="1" alphatest="on"/-->
-		<widget source="label5" render="Label" position="860,20" size="210,95" font="Regular;19" halign="center" valign="center" zPosition="2" transparent="1"/> 
-		<widget source="label5s" render="Label" position="860,20" size="210,95" font="Regular;19" halign="center" valign="top" zPosition="2" foregroundColor="#0000fafa" transparent="1"/> 
-		<!--widget name="pixmap5" position="860,35" size="320,70" zPosition="1" alphatest="on"/-->
-		<widget source="label6" render="Label" position="1065,20" size="210,95" font="Regular;19" halign="center" valign="center" zPosition="2" transparent="1"/> 
-		<widget source="label6s" render="Label" position="1065,20" size="210,95" font="Regular;19" halign="center" valign="top" zPosition="2" foregroundColor="#0000fafa" transparent="1"/> 
-		<!--widget name="pixmap6" position="1065,35" size="320,70" zPosition="1" alphatest="on"/-->		
-		<ePixmap position="50,103" zPosition="1" size="600,45" pixmap="Vision-Turquoise-HD/menu/colorbarRG.png" alphatest="blend" transparent="1"/>		
-		<widget name="red" position="55,118" zPosition="2" size="140,20" font="Regular;16" transparent="1"/>
-		<widget name="green" position="255,118" zPosition="2" size="140,20" font="Regular;16" transparent="1"/>
-		<widget name="yellow" position="455,118" zPosition="2" size="0,0" font="Regular;16" transparent="1"/>
-		<widget name="blue" position="655,118" zPosition="2" size="140,20" font="Regular;16" transparent="1"/>
-		<ePixmap position="1155,117" zPosition="1" size="45,25" pixmap="icons/cursores_derecha_izquierda_arriba_abajo.png" alphatest="blend" transparent="1"/>			
+	<screen name="Iconmain" position="0,565" size="1280,280" title="Mainmenu">
+	<panel name="Iconhorizontal"/>	
 	</screen>
 	<!-- ####### HideVBILine embebido ####### -->
     <screen name="HideVBILine" position="0,0" size="1280,2" backgroundColor="#00030303" flags="wfNoBorder">	
@@ -1582,6 +1486,31 @@
 		<widget name="config" position="80,140" size="690,400" scrollbarMode="showOnDemand" itemHeight="25" backgroundColor="#00030303" transparent="1"/>
 		<widget source="introduction" render="Label" position="845,435" size="380,160" halign="center" valign="center" font="Regular;19" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" transparent="1" zPosition="2"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
+	</screen>
+	<!--####### NetworkPasswordSetup ####### -->
+	<screen name="NetworkPassword" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenerica_sRGYB"/>	
+		<panel name="ScrollBarTemplate"/>
+        <panel name="Title"/>
+        <panel name="PIG"/>
+		<panel name="sRGYB"/>
+		<widget name="config" position="69,137" size="733,427" zPosition="2" scrollbarMode="showAlways" scrollbarSliderForegroundColor="#00030303"/>
+		<widget name="description" position="845,415" size="380,160" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
+        <widget name="footnote" position="80,500" size="503,25" zPosition="1" font="Regular;21" foregroundColor="#00bab329" backgroundColor="#00030303" halign="left" transparent="1" valign="top"/>				
+		<widget name="HelpWindow" position="682,599" size="1,1" pixmap="/usr/share/enigma2/skin_default/buttons/vkey_icon.png" transparent="1" zPosition="1" alphatest="blend"/>
+		<widget source="VKeyIcon" render="Pixmap" pixmap="icons/key_text.png" position="640,680" zPosition="2" size="40,22" transparent="1" alphatest="on">
+			<convert type="ConditionalShowHide"/>
+		</widget>		
+	</screen>
+
+	<!--####### InetdRecoverySetup ####### -->
+	<screen name="InetdRecovery" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>	
+		<panel name="ScrollBarTemplate"/>
+        <panel name="Title"/>
+        <panel name="PIG"/>
+		<widget name="config" position="69,137" size="733,427" zPosition="2" scrollbarMode="showAlways" scrollbarSliderForegroundColor="#00030303"/>		
 	</screen>	
 	
 	<!-- ####### MENU CON WIFI WLAN CONECTADA DATOS DE RED ####### -->
@@ -6130,6 +6059,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ScrollBarTemplate"/>
         <widget name="menuList" position="75,155" size="730,100" scrollbarMode="showOnDemand" backgroundColor="#00030303" transparent="1" zPosition="2"/>
     </screen>
+	<!--####### SCREENSAVER ####### -->	
         <screen name="Screensaver" position="fill" flags="wfNoBorder">
         <eLabel position="fill" backgroundColor="#54111112" zPosition="0"/>
         <widget name="picture" pixmap="Vision-Turquoise-HD/skin_default/screensaverpicture.png" position="0,0" size="150,119" alphatest="blend" zPosition="1"/>
