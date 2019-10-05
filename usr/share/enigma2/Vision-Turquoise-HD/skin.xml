@@ -3684,7 +3684,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<ePixmap position="1105,410" size="54,80" pixmap="icons/dev_sd.png" alphatest="blend"/>		
 	</screen>		
 		
-	<!-- Info System Memory Info OK -->
+	<!-- **********Info System Memory Info OK********** -->
 	<screen name="SystemMemoryInfo" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaR"/>
 		<panel name="ScrollBarTemplate"/>
