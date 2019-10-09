@@ -2645,7 +2645,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	<screen name="TimerEntry" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
-             <panel name="PIG"/>		
+              <panel name="PIG"/>		
 		<panel name="Title"/>			
 		<widget name="cancel" pixmap="menu/colorbarR.png" position="60,635" size="140,35" alphatest="blend" backgroundColor="#00030303"/>
 		<widget name="ok" pixmap="menu/colorbarG.png" position="410,635" size="140,35" alphatest="blend" backgroundColor="#00030303"/>		
