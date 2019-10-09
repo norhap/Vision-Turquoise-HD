@@ -2643,12 +2643,10 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	</screen>
 	<!-- #######  PANTALLA AÑADIR TEMPORIZADOR DE EVENTOS EN EPG Y AÑADIR UN TEMPORIZADOR NUEVO ####### -->
 	<screen name="TimerEntry" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
         <panel name="PIG"/>		
-		<panel name="Title"/>
-		<widget name="canceltext" position="5,625" zPosition="1" size="250,36" backgroundColor="#000c0d0e" font="Regular;21" halign="center" valign="center" transparent="1"/>
-		<widget name="oktext" position="355,625" size="250,36" zPosition="1" font="Regular;21" halign="center" valign="center" backgroundColor="#000c0d0e" transparent="1"/>			
+		<panel name="Title"/>			
 		<widget name="cancel" pixmap="menu/colorbarR.png" position="60,635" size="140,35" alphatest="blend" backgroundColor="#00030303"/>
 		<widget name="ok" pixmap="menu/colorbarG.png" position="410,635" size="140,35" alphatest="blend" backgroundColor="#00030303"/>		
 		<widget name="config" position="60,145" size="725,450" font="Regular;18" itemHeight="30" transparent="1"/>		
