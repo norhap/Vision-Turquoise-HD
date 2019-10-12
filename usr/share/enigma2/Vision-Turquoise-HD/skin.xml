@@ -3694,7 +3694,6 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="lab1" position="360,110" size="585,40" font="Regular;24" halign="left" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1" zPosition="1"/>
 		<widget source="TunerHeader" render="Label" position="80,130" size="585,40" font="Regular;17" halign="left" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1" zPosition="1"/>
 		<widget source="nims" render="Label" position="80,150" size="585,175" font="Regular;15" halign="left" backgroundColor="#00030303" transparent="1" valign="top" zPosition="1"/>
 		<widget source="HDDHeader" render="Label" position="80,320" size="585,40" font="Regular;17" halign="left" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1" zPosition="1"/>
@@ -3725,7 +3724,6 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="lab1" position="360,140" size="585,40" font="Regular;24" halign="left" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 		<widget name="AboutScrollLabel" position="80,180" size="690,450" font="Regular;20" backgroundColor="#00030303" transparent="1"/>
 		<widget source="IFtext" render="Label" position="80,470" size="120,25" font="Regular;20" halign="left" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 		<widget source="IF" render="Label" position="245,470" size="400,25" font="Regular;20" halign="left" transparent="1" backgroundColor="#00030303" zPosition="10"/>
