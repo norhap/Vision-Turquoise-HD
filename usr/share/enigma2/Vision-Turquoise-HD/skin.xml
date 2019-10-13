@@ -1409,10 +1409,9 @@
 	</screen>
 	<!-- ********** ####### NETWORK ADAPTER TEST (size 1160x560) ######## -->
 	<screen name="NetworkAdapterTest" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>	
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<panel name="sRGY"/>
-		<panel name="PantallaGenerica_sRGY"/>
 		<panel name="ScrollBarTemplate"/>
 		<widget name="AdapterInfo_OK" position="310,152" size="38,31" zPosition="2" pixmap="icons/lock_on.png" alphatest="blend"/>
 		<widget name="Adaptertext" position="80,150" size="610,25" zPosition="1" font="Regular;20" foregroundColors="#0000fafa,#00ffffff" backgroundColor="#00030303" transparent="1"/>
