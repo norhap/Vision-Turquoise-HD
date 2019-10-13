@@ -609,7 +609,7 @@
 	<screen name="EventView" position="fill" flags="wfNoBorder">
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Titlerunning"/>
-		<panel name="PantallaGenericaConfigRGYB"/>
+		<panel name="PantallaGenericaConfig"/>
 		 <widget source="session.VideoPicture" render="Pig" position="838,112" size="382,218" zPosition="3" backgroundColor="#df0b1300"/>
 		<widget source="session.Event_Now" render="Progress" pixmap="icons/tv_b_bar.png" size="340,2" position="837,338" zPosition="5" backgroundColor="darkgrey" transparent="1">
 			<convert type="EventTime">Progress</convert>
