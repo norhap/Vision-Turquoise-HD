@@ -861,7 +861,7 @@
 	<!-- ####### EPG SELECTION MULTI ####### -->
 	<screen name="EPGSelectionMulti" position="fill" flags="wfNoBorder">
 		<panel name="MainHelp"/>
-		<panel name="WidgetSource_MainHelp"/>
+		<panel name="WidgetName_MainHelp"/>
 		<panel name="Title_no_menu_patch"/>
 		<panel name="PIG-MHELP"/>
 		<ePixmap position="57,660" zPosition="1" size="750,38" pixmap="Vision-Turquoise-HD/menu/colorbarRGYB.png" alphatest="blend" transparent="1"/>
