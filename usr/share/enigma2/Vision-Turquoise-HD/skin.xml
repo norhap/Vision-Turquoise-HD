@@ -193,7 +193,7 @@
 		<widget name="menulist" position="75,155" size="730,400" scrollbarMode="showOnDemand" backgroundColor="#00030303" transparent="1" zPosition="2"/>
 		<ePixmap alphatest="on" pixmap="/usr/lib/enigma2/python/Plugins/SystemPlugins/MountManager/icons/fstabEditor.png" position="980,410" size="100,40"/>
 		<widget name="cancelist" position="55,575" size="150,136" font="Regular;19" halign="center" valign="center" backgroundColor="#000c0d0e" transparent="1" zPosition="2"/>
-		<widget name="addentry" position="250,630" size="150,36" backgroundColor="#000c0d0e" zPosition="1" transparent="1" font="Regular;19" halign="left"/>
+		<widget name="addentry" position="270,630" size="150,36" backgroundColor="#000c0d0e" zPosition="1" transparent="1" font="Regular;19" halign="left"/>
 		<widget name="restore" position="460,630" size="150,25" backgroundColor="#000c0d0e" zPosition="1" transparent="1" font="Regular;19" halign="left"/>
 		<widget name="run" position="630,620" size="205,45" font="Regular;19" halign="center" valign="center" backgroundColor="#000c0d0e" transparent="1" zPosition="2"/>
 		<widget name="entryinfo" position="1015,540" size="220,28" backgroundColor="#000c0d0e" zPosition="1" transparent="1" font="Regular;19" halign="left"/>
