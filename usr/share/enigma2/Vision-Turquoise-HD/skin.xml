@@ -1932,7 +1932,6 @@
 	<!-- ####### Choice Box Boton azul Menu Extensiones####### -->
 	<screen name="ChoiceBox" position="fill" flags="wfNoBorder">
 		<panel name="choicebox"/>
-		<widget name="description" conditional="description" position="250,155" size="380,25" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<screen name="ExtensionsList" title="" position="fill" flags="wfNoBorder">
 		<panel name="choicebox"/>
