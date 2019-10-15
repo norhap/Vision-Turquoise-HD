@@ -654,7 +654,7 @@
 		<panel name="PIG"/>
 		<panel name="Title"/>
 		<panel name="ScrollBarTemplate"/>
-		<panel name="PantallaGenericaConfigRGYB"/>
+		<panel name="PantallaGenericaConfig"/>
 		<widget source="Service" render="Picon" position="692,30" size="100,60" zPosition="5" alphatest="blend" backgroundColor="#000c0d0e">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
