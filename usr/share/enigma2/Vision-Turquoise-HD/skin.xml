@@ -847,15 +847,11 @@
 	</screen>
 		<!-- **********TimeDateInput Pantalla "Text" desde GraphicalEPG********** -->
 	<screen name="TimeDateInput" position="fill" flags="wfNoBorder" title="TimeDateInput">
-		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
+		<panel name="PantallaGenericaConfig"/>
 		<ePixmap position="57,625" zPosition="1" size="750,45" pixmap="Vision-Turquoise-HD/menu/colorbarRG.png" alphatest="blend" transparent="1"/>
-		<widget name="canceltext" position="5,625" zPosition="1" size="250,36" backgroundColor="#000c0d0e" font="Regular;19" halign="center" valign="center" transparent="1"/>
-		<widget name="oktext" position="200,625" size="250,36" zPosition="1" font="Regular;19" halign="center" valign="center" backgroundColor="#000c0d0e" transparent="1"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="cancel" position="60,635" zPosition="1" size="140,35" pixmap="Vision-Turquoise-HD/menu/colorbarR.png" alphatest="blend"/>
-		<widget name="ok" position="260,635" zPosition="1" size="140,35" pixmap="Vision-Turquoise-HD/menu/colorbarG.png" alphatest="blend"/>
 		<widget name="config" scrollbarMode="showOnDemand" position="80,138" font="Regular;20" size="600,500" transparent="1"/>
 	</screen>
 	<!-- ####### EPG SELECTION MULTI ####### -->
@@ -2644,6 +2640,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ScrollBarTemplate"/>
 			  <panel name="PIG"/>
 		<panel name="Title"/>
+		<panel name="timerentry"/>		
 		<widget name="config" position="60,145" size="725,450" font="Regular;18" itemHeight="30" transparent="1"/>
 			  <widget name="description" objectTypes="description,Button,Label" position="845,415" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 			  <widget source="description" render="Label" objectTypes="description,StaticText" position="845,415" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
