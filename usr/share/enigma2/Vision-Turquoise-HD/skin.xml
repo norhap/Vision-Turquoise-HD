@@ -1405,7 +1405,7 @@
 	</screen>
 	<!-- ********** ####### NETWORK ADAPTER TEST (size 1160x560) ######## -->
 	<screen name="NetworkAdapterTest" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaConfig"/>	
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<panel name="ScrollBarTemplate"/>
@@ -2640,7 +2640,6 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ScrollBarTemplate"/>
 			  <panel name="PIG"/>
 		<panel name="Title"/>
-		<panel name="timerentry"/>		
 		<widget name="config" position="60,145" size="725,450" font="Regular;18" itemHeight="30" transparent="1"/>
 			  <widget name="description" objectTypes="description,Button,Label" position="845,415" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 			  <widget source="description" render="Label" objectTypes="description,StaticText" position="845,415" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
