@@ -315,15 +315,15 @@
 	<!-- ####### BOTONES ANCHOS ARRIBA Y ABAJO COLOR ####### -->
 	<screen name="BotonRedAncho">
 		<ePixmap pixmap="buttons/red.png" position="0,e-40" size="140,40" alphatest="on"/>
-		<widget name="key_red" position="0,e-40" zPosition="2" size="140,40" font="Regular;19" halign="center" valign="center" backgroundColor="#9f1313" transparent="1"/>
+		<widget name="key_red" position="0,e-40" zPosition="2" size="140,40" font="Regular;19" halign="center" valign="center" backgroundColor="#141484" transparent="1"/>
 	</screen>
 	<screen name="BotonGreenAncho">
 		<ePixmap pixmap="buttons/green.png" position="140,e-40" size="140,40" alphatest="on"/>
-		<widget name="key_green" position="140,e-40" zPosition="2" size="140,40" font="Regular;19" halign="center" valign="center" backgroundColor="#1f771f" transparent="1"/>
+		<widget name="key_green" position="140,e-40" zPosition="2" size="140,40" font="Regular;19" halign="center" valign="center" backgroundColor="#141484" transparent="1"/>
 	</screen>
 	<screen name="BotonYellowAncho">
 		<ePixmap pixmap="buttons/yellow.png" position="280,e-40" size="140,40" alphatest="on"/>
-		<widget name="key_yellow" position="280,e-40" zPosition="2" size="140,40" font="Regular;19" halign="center" valign="center" backgroundColor="#a08500" transparent="1"/>
+		<widget name="key_yellow" position="280,e-40" zPosition="2" size="140,40" font="Regular;19" halign="center" valign="center" backgroundColor="#141484" transparent="1"/>
 	</screen>
 	<screen name="BotonBlueAncho">
 		<ePixmap pixmap="buttons/blue.png" position="420,e-40" size="140,40" alphatest="on"/>
@@ -436,6 +436,58 @@
 		<widget name="key_green" objectTypes="key_green,Label,Button" position="250,645" size="150,45" backgroundColor="#000b0d0e" font="Regular;19" halign="center" valign="center" transparent="1" zPosition="2"/>
 		<widget name="key_yellow" objectTypes="key_yellow,Label,Button" position="450,650" size="150,45" backgroundColor="#000b0d0e" font="Regular;19" halign="center" valign="center" transparent="1" zPosition="2"/>
 		<widget name="key_blue" objectTypes="key_blue,Label,Button" position="650,650" size="150,45" backgroundColor="#000b0d0e" font="Regular;19" halign="center" valign="center" transparent="1" zPosition="2"/>
+	</screen>
+	<screen name="MainHelp_MovieSelection">
+		<ePixmap pixmap="menu/fr_mplayer.png" position="fill" zPosition="-1"/>
+		<widget source="global.CurrentTime" render="Label" position="870,43" size="160,40" zPosition="2" font="LCD;38" valign="top" halign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1">
+			<convert type="ClockToText">Format:%H:%M :%S</convert>
+		</widget>
+		<widget source="global.CurrentTime" render="Label" position="30,45" size="560,35" zPosition="2" font="LCD;35" valign="top" halign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1">
+			<convert type="ClockToText">Format:%a %d/%m/%y</convert>
+		</widget>
+		<widget name="waitingtext" position="415,90" size="435,20" font="Regular;19" foregroundColor="yellow" backgroundColor="#00030303" transparent="1" halign="center" valign="top"/>
+		<widget name="list" zPosition="1" position="55,162" size="853,350" scrollbarMode="showOnDemand" transparent="0"/>
+		<ePixmap position="885,112" zPosition="3" size="25,470" pixmap="icons/barra400.png" alphatest="blend" transparent="1"/>
+		<widget source="session.VideoPicture" render="Pig" position="903,150" size="320,165" zPosition="3" backgroundColor="#df0b1300"/>
+		<eLabel position="910,144" size="1,174" backgroundColor="#004ccbde" zPosition="3"/>
+		<eLabel position="1233,144" size="1,174" backgroundColor="#004ccbde" zPosition="3"/>
+		<eLabel position="910,317" size="324,1" backgroundColor="#004ccbde" zPosition="3"/>
+		<eLabel position="910,144" size="324,1" backgroundColor="#004ccbde" zPosition="3"/>
+		<widget name="DescriptionBorder" position="10,400" size="503,0" zPosition="3" transparent="1"/>
+		<widget name="chosenletter" position="845,345" size="380,185" font="Regular;50" halign="center" valign="center" transparent="1" zPosition="4"/>
+		<widget name="movie_sort" position="55,110" size="35,20" pixmaps="icons/ask.png,icons/movielist.png,icons/quit.png,icons/pause.png,icons/playlist.png,icons/playlistquit.png,icons/loop.png,icons/rep.png"	zPosition="10" transparent="1" alphatest="on"/>
+		<widget name="movie_off" position="55,135" size="35,20" pixmaps="icons/ask.png,icons/movielist.png,icons/quit.png,icons/pause.png,icons/playlist.png,icons/playlistquit.png,icons/loop.png,icons/rep.png"	zPosition="10" transparent="1" alphatest="on"/>
+		<widget source="Service" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,steptime=90,wrap=1,always=0,repeat=2,oneshot=1" position="905,320" zPosition="4" size="330,173" font="Regular;19" foregroundColor="#00a1d1ff" backgroundColor="#00030303" transparent="0" halign="center" valign="top">
+			<convert type="EventName">ExtendedDescription</convert>
+		</widget>
+		<widget name="freeDiskSpace" position="895,492" halign="center" valign="center" zPosition="4" size="370,25" font="Regular;16" foregroundColor="#004ccbde" transparent="1"/>
+		<widget source="Service" render="Label" position="550,120" size="80,25" font="Regular;19" valign="center" foregroundColor="#0000fafa" backgroundColor="#00203e69" transparent="1" zPosition="4">
+			<convert type="ServiceTime">Duration</convert>
+			<convert type="ClockToText">AsLength</convert>
+		</widget>
+		<widget name="TrashcanSize" position="340,140" size="400,20" font="Regular;19" backgroundColor="#00030303" foregroundColor="#004ccbde" halign="center" valign="center" zPosition="2" transparent="1"/>
+		<widget source="Service" render="Label" position="675,120" size="125,25" font="Regular;19" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1" zPosition="4">
+			<convert type="ServiceTime">StartTime</convert>
+			<convert type="ClockToText">ShortDate</convert>
+		</widget>
+		<widget source="Service" render="Label" position="795,120" size="100,25" font="Regular;19" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1" zPosition="4">
+			<convert type="MovieInfo">FileSize</convert>
+		</widget>
+		<ePixmap pixmap="icons/key_menu1.png" position="680,639" size="40,22" alphatest="blend"/>
+		<ePixmap pixmap="icons/key_info.png" position="725,639" size="40,22" alphatest="blend"/>
+		<ePixmap pixmap="icons/key_help.png" position="770,639" size="40,22" alphatest="blend"/>
+		<!-- Rojo boton -->
+		<ePixmap objectTypes="key_red,Button,Label" pixmap="buttons/red.png" position="170,690" size="140,3" alphatest="blend" transparent="1"/>
+		<widget name="key_red" objectTypes="key_red,Label,Button" position="170,665" size="140,25" font="Regular;19" halign="center" valign="center" backgroundColor="#00040404" transparent="1" zPosition="2"/>
+		<!-- Verde boton -->
+		<ePixmap objectTypes="key_green,Button,Label" pixmap="buttons/green.png" position="440,690" size="140,3" alphatest="blend" transparent="1"/>
+		<widget name="key_green" objectTypes="key_green,Label,Button" position="410,650" size="200,50" font="Regular;19" halign="center" valign="center" backgroundColor="#000a0a0a" transparent="1" zPosition="2"/>
+		<!-- Amarillo boton -->
+		<ePixmap objectTypes="key_yellow,Button,Label" pixmap="buttons/yellow.png" position="685,690" size="140,3" alphatest="blend" transparent="1"/>
+		<widget name="key_yellow" objectTypes="key_yellow,Label,Button" position="635,665" size="240,25" font="Regular;19" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
+		<!-- Azul boton -->
+		<ePixmap objectTypes="key_blue,Button,Label" pixmap="buttons/blue.png" position="935,690" size="140,3" alphatest="blend" transparent="1"/>
+		<widget name="key_blue" objectTypes="key_blue,Label,Button" position="785,665" size="440,25" font="Regular;19" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
 	</screen>
 
 	<screen name="PantallaGenericaUserScripts">
