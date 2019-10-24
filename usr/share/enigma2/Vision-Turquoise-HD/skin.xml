@@ -2636,11 +2636,17 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	</screen>
 	<!-- #######  PANTALLA AÑADIR TEMPORIZADOR DE EVENTOS EN EPG ####### -->
 	<screen name="TimerEntry" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaConfig"/>
+		<panel name="PantallaGenericaConfigRGY"/>
 		<panel name="ScrollBarTemplate"/>
 			  <panel name="PIG"/>
 		<panel name="Title"/>
 		<widget name="config" position="60,145" size="725,450" font="Regular;18" itemHeight="30" transparent="1"/>
+		<ePixmap objectTypes="key_blue,Button,Label" pixmap="menu/colorbarB.png" position="460,667" size="140,35" alphatest="blend" transparent="1"/>
+		<widget source="key_blue" objectTypes="key_blue,StaticText" render="Pixmap" pixmap="menu/colorbarB.png" position="460,667" size="140,35" alphatest="blend" transparent="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget name="key_blue" objectTypes="key_blue,Label,Button" position="450,658" size="165,45" font="Regular;19" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
+		<widget source="key_blue" render="Label" objectTypes="key_blue,StaticText" position="450,658" size="165,45" font="Regular;19" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
 			  <widget name="description" objectTypes="description,Button,Label" position="845,415" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 			  <widget source="description" render="Label" objectTypes="description,StaticText" position="845,415" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 		<widget name="HelpWindow" conditional="HelpWindow" position="682,599" size="1,1" pixmap="/usr/share/enigma2/skin_default/buttons/vkey_icon.png" transparent="1" zPosition="1" alphatest="blend"/>

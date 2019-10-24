@@ -556,11 +556,6 @@
 		</widget>
 		<widget name="key_yellow" objectTypes="key_yellow,Label,Button" position="455,614" size="150,45" font="Regular;19" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
 		<widget source="key_yellow" render="Label" objectTypes="key_yellow,StaticText" position="455,614" size="150,45" font="Regular;19" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
-		<widget source="key_blue" objectTypes="key_blue,StaticText" render="Pixmap" pixmap="menu/colorbarB.png" position="660,634" size="140,35" alphatest="blend" transparent="1">
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget name="key_blue" objectTypes="key_blue,Label,Button" position="650,614" size="165,45" font="Regular;19" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
-		<widget source="key_blue" render="Label" objectTypes="key_blue,StaticText" position="650,614" size="165,45" font="Regular;19" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
 	</screen>
 	<!-- SETUP GENERAL STANDARD E2 -->
 	<screen name="SetupPanel">
