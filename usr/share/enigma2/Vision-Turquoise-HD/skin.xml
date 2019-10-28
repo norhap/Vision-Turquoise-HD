@@ -1484,11 +1484,10 @@
 	</screen>
 	<!--####### NetworkPasswordSetup ####### -->
 	<screen name="NetworkPassword" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenerica_sRGYB"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<panel name="sRGYB"/>
 		<widget name="config" position="69,137" size="733,427" zPosition="2" scrollbarMode="showAlways" scrollbarSliderForegroundColor="#00030303"/>
 		<widget name="description" position="845,415" size="380,160" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
