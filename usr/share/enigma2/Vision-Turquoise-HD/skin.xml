@@ -1748,16 +1748,6 @@
 		<eLabel position="40,582" size="725,5" backgroundColor="#00030303" zPosition="10"/>
 		<ePixmap pixmap="icons/key_exit.png" position="8,640" size="40,22" alphatest="blend"/>
 	</screen>
-	<!-- **********NetWork Vpn-ushare-ZeroTier-Samba-MiniDLNA Log ********** -->
-	<screen name="NetworkServiceLog" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
-		<panel name="ScrollBarTemplate"/>
-		<panel name="Title"/>
-		<panel name="PIG"/>
-		<widget name="infotext" position="80,140" size="735,493" font="Console;14" backgroundColor="#00030303" transparent="1"/>
-		<eLabel position="40,582" size="725,5" backgroundColor="#00030303" zPosition="10"/>
-		<ePixmap pixmap="icons/key_exit.png" position="8,640" size="40,22" alphatest="blend"/>
-	</screen>
 	<!-- **********NetWork MiniDLNA OK********** -->
 	<screen name="NetworkMiniDLNA" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
