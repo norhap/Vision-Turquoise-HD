@@ -1738,8 +1738,8 @@
 		</widget>
 	</screen>
 
-	<!-- **********NetWork Inadyn Log OK********** -->
-	<screen name="NetworkInadynLog" position="fill" flags="wfNoBorder">
+	<!-- **********NetWork Services ushare-Samba-OpenVPN-ZeroTierVPN-MiniDLNA Log OK********** -->
+	<screen name="NetworkServiceLog" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
