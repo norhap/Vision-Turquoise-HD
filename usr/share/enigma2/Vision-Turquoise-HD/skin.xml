@@ -1338,7 +1338,7 @@
 				MultiContentEntryText(pos = (85, 6), size = (410, 28), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1), # index 1 is the interfacename
 				MultiContentEntryText(pos = (85, 43), size = (410, 20), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_BOTTOM, text = 2), # index 2 is the description
 				MultiContentEntryPixmapAlphaTest(pos = (2, 8), size = (54, 54), png = 3), # index 3 is the interface pixmap
-				MultiContentEntryPixmapAlphaTest(pos = (63, 46), size = (15, 16), png = 4), # index 4 is the default pixmap
+				MultiContentEntryPixmapAlphaTest(pos = (60, 28), size = (15, 16), png = 4), # index 4 is the default pixmap
 				],
 				"fonts": [gFont("Regular", 26),gFont("Regular", 20)],
 				"itemHeight": 70
