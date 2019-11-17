@@ -2327,7 +2327,10 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<widget name="list" position="80,190" size="725,390" selectionPixmap="Vision-Turquoise-HD/icons/ls700x30.png" itemHeight="30" scrollbarMode="showOnDemand" transparent="1"/>
-		<widget name="choosen" position="250,130" size="500,50" foregroundColor="#0000baff" halign="center" valign="center" transparent="1"/>
+		<widget name="choosen" position="250,130" size="500,50" foregroundColor="#0000baff" transparent="1"/>
+		<widget name="h_prev" position="950,410" size="50,20" zPosition="10" backgroundColor="#00030303" transparent="1"/>
+		<widget name="h_next" position="1005,410" size="380,20" zPosition="10" backgroundColor="#00030303" transparent="1"/>
+		<widget name="description" position="845,435" size="380,160" zPosition="10" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<!--####### NumberZap ####### -->
 	<screen name="NumberZap" position="center,center" size="415,50" title="Channel" flags="wfNoBorder" backgroundColor="#0003424a">
