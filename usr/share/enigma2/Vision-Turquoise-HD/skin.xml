@@ -817,7 +817,7 @@
 		<widget source="Event" render="Progress" pixmap="icons/tv_b_bar.png" position="70,225" size="340,2" backgroundColor="grey" borderWidth="0" transparent="0" zPosition="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget source="Event" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,steptime=100,wrap=1,always=0,repeat=2,oneshot=1" position="423,103" size="420,133" zPosition="2" font="Regular;21" halign="center" valign="center" foregroundColor="#00a1d1ff" backgroundColor="background" transparent="1">
+		<widget source="Event" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,steptime=100,wrap=1,always=0,repeat=2,oneshot=1" position="413,103" size="420,133" zPosition="2" font="Regular;21" halign="center" valign="center" foregroundColor="#00a1d1ff" backgroundColor="background" transparent="1">
 			 <convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<widget name="timeline_text" position="66,245" size="665,25" backgroundColor="#00030303" foregroundColor="#0000baff" transparent="1" zPosition="0"/>
@@ -871,7 +871,7 @@
 			<convert type="ClockToText">Format:%H:%M </convert>
 		</widget>
 		<widget name="date" position="70,220" size="340,20" zPosition="2" font="Regular;19" valign="center" halign="center" foregroundColor="#0000fafa" backgroundColor="#0003424a" transparent="1"/>
-		<widget source="Event" render="Progress" pixmap="icons/tv_b_bar.png" position="70,240" size="340,2" backgroundColor="grey" borderWidth="0" transparent="0" zPosition="2">
+		<widget source="Event" render="Progress" pixmap="icons/tv_b_bar.png" position="70,242" size="340,2" backgroundColor="grey" borderWidth="0" transparent="0" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<widget	 source="Event" render="Label" position="330,221" zPosition="2" size="80,28" font="Regular;23" halign="right" foregroundColor="#00a1d1ff" backgroundColor="#0003424a" transparent="1">
