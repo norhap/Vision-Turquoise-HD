@@ -1970,14 +1970,14 @@
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget source="nimlist" render="Listbox" position="80,150" size="725,400" selectionPixmap="Vision-Turquoise-HD/icons/ls700x90.png" transparent="1">
+		<widget source="nimlist" render="Listbox" position="80,150" size="725,400" selectionPixmap="Vision-Turquoise-HD/icons/ls700x100.png" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
-				MultiContentEntryText(pos = (10,5), size = (860,50), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the nim name,
-				MultiContentEntryText(pos = (50,37), size = (820,50), font = 1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is a description of the nim settings,
+				MultiContentEntryText(pos = (10,5), size = (860,25), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the nim name,
+				MultiContentEntryText(pos = (50,37), size = (820,55), font = 1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is a description of the nim settings,
 				],
 				"fonts": [gFont("Regular", 22), gFont("Regular", 18)],
-				"itemHeight": 90
+				"itemHeight": 100
 				}
 			</convert>
 		</widget>
