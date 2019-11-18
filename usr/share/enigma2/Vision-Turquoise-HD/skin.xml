@@ -3365,7 +3365,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
 		<eLabel text="CPU" zPosition="2" position="740,561" foregroundColor="#0000fafa" backgroundColor="#0001030a" size="30,10" font="xRegular;10"/>
-		<widget source="session.CurrentService" render="Label" position="705,567" size="90,22" halign="center" valign="center" font="Regular;19" transparent="1" foregroundColor="#004ccbde" backgroundColor="#0001030a" zPosition="2">
+		<widget source="session.CurrentService" render="Label" position="705,567" size="90,22" halign="center" valign="center" font="Regular;17" transparent="1" foregroundColor="#004ccbde" backgroundColor="#0001030a" zPosition="2">
 			<convert type="BTVCpuUsage">$0</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Pixmap" pixmap="icons/tuner.png" position="778,564" size="18,18" zPosition="2" alphatest="on">
