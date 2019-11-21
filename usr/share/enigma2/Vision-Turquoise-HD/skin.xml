@@ -1015,6 +1015,7 @@
 		<widget name="detailtext" position="80,190" size="705,330" font="Regular;21" transparent="1"/>
 		<widget name="screenshot" position="250,295" size="300,300" alphatest="on"/>
 	</screen>
+	<!-- ####### ADMINISTRADOR DE SOFTWARE ####### -->
 	<screen name="UpdatePluginMenu" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaRexit"/>
 		<panel name="PIG"/>
@@ -1025,10 +1026,10 @@
 		<widget source="menu" render="Listbox" position="65,145" size="720,440" zPosition="3" scrollbarMode="showNever" selectionPixmap="Vision-Turquoise-HD/icons/lsmenu.png" backgroundPixmap="Vision-Turquoise-HD/icons/butselection1.png" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
-				MultiContentEntryText(pos = (51, 10), size = (650, 38), flags = RT_HALIGN_LEFT, text = 1),
+				MultiContentEntryText(pos = (51, 10), size = (650, 40), flags = RT_HALIGN_LEFT, text = 1),
 				],
 				"fonts": [gFont("Regular",30)],
-				"itemHeight": 38
+				"itemHeight": 40
 				}
 			</convert>
 		</widget>
