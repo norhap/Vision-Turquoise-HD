@@ -4963,13 +4963,13 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<ePixmap pixmap="buttons/red.png" position="170,690" size="140,3" alphatest="blend" transparent="1" zPosition="1"/>
-		<widget name="key_red" position="220,645" size="150,45" backgroundColor="#00030303" zPosition="1" transparent="1" font="Regular;22" halign="left"/>
+		<widget name="key_red" position="220,645" size="150,45" backgroundColor="#00030303" zPosition="1" transparent="1" font="Regular;20" halign="left"/>
 		<ePixmap pixmap="buttons/green.png" position="440,690" size="140,3" alphatest="blend" transparent="1" zPosition="1"/>
-		<widget name="key_green" position="445,640" size="150,45" backgroundColor="#00030303" zPosition="1" transparent="1" font="Regular;22" halign="left"/>
+		<widget name="key_green" position="445,640" size="150,45" backgroundColor="#00030303" zPosition="1" transparent="1" font="Regular;20" halign="left"/>
 		<ePixmap pixmap="buttons/yellow.png" position="685,690" size="140,3" alphatest="blend" transparent="1" zPosition="1"/>
-		<widget name="key_yellow" position="685,645" size="150,45" backgroundColor="#00030303" zPosition="1" transparent="1" font="Regular;22" halign="left"/>
+		<widget name="key_yellow" position="685,645" size="150,45" backgroundColor="#00030303" zPosition="1" transparent="1" font="Regular;20" halign="left"/>
 		<ePixmap pixmap="buttons/blue.png" position="935,690" size="140,3" alphatest="blend" transparent="1" zPosition="1"/>
-		<widget name="key_blue" position="955,645" size="150,45" backgroundColor="#00030303" zPosition="1" transparent="1" font="Regular;22" halign="left"/>
+		<widget name="key_blue" position="955,645" size="150,45" backgroundColor="#00030303" zPosition="1" transparent="1" font="Regular;20" halign="left"/>
 		<ePixmap pixmap="icons/key_menu1.png" position="1180,680" size="40,22" alphatest="blend"/>
 		<ePixmap pixmap="icons/key_info.png" position="1225,680" size="40,22" alphatest="blend"/>
 	</screen>
