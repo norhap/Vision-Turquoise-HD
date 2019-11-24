@@ -3334,21 +3334,21 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget source="session.CurrentService" render="Picon" position="90,605" size="100,60" zPosition="10" transparent="1" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
-		<eLabel position="1105,560" size="65,1" backgroundColor="grey" zPosition="5"/>
-		<eLabel position="1105,560" size="1,20" backgroundColor="grey" zPosition="5"/>
-		<eLabel position="1105,579" size="65,1" backgroundColor="grey" zPosition="5"/>
-		<eLabel position="1169,560" size="1,20" backgroundColor="grey" zPosition="5"/>
-		<widget source="session.FrontendInfo" render="FixedLabel" text="DVB-S2" position="1105,560" zPosition="3" size="65,20" font="LCD;17" halign="center" foregroundColor="#00a1d1ff" transparent="0">
+		<eLabel position="1100,560" size="77,1" backgroundColor="grey" zPosition="5"/>
+		<eLabel position="1100,560" size="1,17" backgroundColor="grey" zPosition="5"/>
+		<eLabel position="1100,577" size="77,1" backgroundColor="grey" zPosition="5"/>
+		<eLabel position="1176,560" size="1,17" backgroundColor="grey" zPosition="5"/>
+		<widget source="session.FrontendInfo" render="FixedLabel" text="DVBS2-X|T|C" position="1100,562" zPosition="3" size="75,14" font="Regular; 12" halign="center" foregroundColor="#00a1d1ff" transparent="0">
 			<convert type="FrontendInfo">TYPE</convert>
 			<convert type="ValueRange">0,0</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="session.FrontendInfo" render="FixedLabel" text="DVB-C" position="1105,560" zPosition="3" size="65,20" font="LCD;17" halign="center" foregroundColor="#00a1d1ff" transparent="0">
+		<widget source="session.FrontendInfo" render="FixedLabel" text="DVB-C" position="1100,562" zPosition="3" size="75,14" font="Regular; 12" halign="center" foregroundColor="#00a1d1ff" transparent="0">
 			<convert type="FrontendInfo">TYPE</convert>
 			<convert type="ValueRange">1,1</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="session.FrontendInfo" render="FixedLabel" text="DVB-T/T2" position="1105,560" zPosition="3" size="65,20" font="LCD;17" halign="center" foregroundColor="#00a1d1ff" transparent="0">
+		<widget source="session.FrontendInfo" render="FixedLabel" text="DVB-T/T2" position="1100,562" zPosition="3" size="75,14" font="Regular; 12" halign="center" foregroundColor="#00a1d1ff" transparent="0">
 			<convert type="FrontendInfo">TYPE</convert>
 			<convert type="ValueRange">2,2</convert>
 			<convert type="ConditionalShowHide"/>
