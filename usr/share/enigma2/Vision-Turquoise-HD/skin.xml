@@ -5922,7 +5922,8 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<widget name="list" position="80,145" size="725,425" backgroundColor="#00030303" scrollbarMode="showOnDemand" borderWidth="1"/>
-		<widget name="description" position="845,430" size="380,195" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" transparent="1"/>
+		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
+		<widget source="description" render="Label" position="845,400" size="380,195" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" transparent="1"/>
 	</screen>
 	<!-- ******************** Audio Sync Setup ******************** -->
 	<screen name="AC3LipSyncSetup" position="fill" flags="wfNoBorder">
