@@ -2067,8 +2067,9 @@
 			<convert type="ValueRange">2,2</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget name="network" position="160,25" size="430,25" font="Regular;22"/>
-		<widget name="transponder" position="160,55" size="430,25" font="Regular;22"/>
+		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
+		<widget name="network" position="845,440" size="380,25" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<widget name="transponder" position="845,470" size="380,25" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 		<widget name="scan_state" position="80,140" size="560,25" zPosition="2" font="Regular;22"/>
 		<widget name="pass" position="80,140" size="560,25" font="Regular;22"/>
 		<widget name="scan_progress" position="80,175" size="560,20" pixmap="icons/progress_big.png" borderWidth="1" borderColor="#00cccccc"/>
