@@ -3689,7 +3689,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 
 	<!-- **********Info Devices OK********** -->
 	<screen name="Devices" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaRexit"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
