@@ -4996,7 +4996,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget name="state" position="25,2" size="125,20" transparent="0" zPosition="3" backgroundColor="#0003424a" foregroundColor="#0000fafa" font="Regular;21" halign="left"/>
 	</screen>
 	<!-- **********BufferIndicator********** -->
-	<screen name="BufferIndicator" title="Channel" position="500,500" size="320,35" backgroundColor="#0003424a" flags="wfNoBorder">
+	<screen name="BufferIndicator" title="Channel" position="450,500" size="320,35" backgroundColor="#0003424a" flags="wfNoBorder">
 		<eLabel position="0,0" size="320,1" backgroundColor="#0000fafa" zPosition="3"/>
 		<eLabel position="0,0" size="1,33" backgroundColor="#0000fafa" zPosition="3"/>
 		<eLabel position="0,33" size="320,1" backgroundColor="#0000fafa" zPosition="3"/>
