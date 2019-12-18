@@ -2191,7 +2191,7 @@
 	</screen>
 	<!-- ####### Satfinder ####### -->
 	<screen name="Satfinder" position="fill" title="Satfinder">
-		<panel name="PantallaGenericaRexit"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
