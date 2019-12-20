@@ -5921,7 +5921,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<widget name="header" position="80,145" size="380,45" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="#00030303" foregroundColor="#004ccbde" transparent="1"/>
-		<widget name="progress" position="80,210" size="380,50" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="#00030303" foregroundColor="#004ccbde" transparent="1"/>
+		<widget name="progress" position="80,210" size="380,50" zPosition="10" backgroundColor="#00030303" foregroundColor="#004ccbde" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget name="info" position="845,425" size="380,195" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="#00030303" foregroundColor="#004ccbde" transparent="1"/>
 	</screen>
