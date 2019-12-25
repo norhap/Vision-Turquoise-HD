@@ -953,10 +953,9 @@
 	<!-- ####### MANEJAR SOFTWARE ####### ********** -->
 	<!-- ####### MANEJAR SOFTWARE - Gestionar Extensiones ####### -->
 	<screen name="PluginManager" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenerica_sRGY"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="PIG"/>
 		<panel name="Title"/>
-		<panel name="sRGY"/>
 		<panel name="ScrollBarTemplate"/>
 		<widget source="list" render="Listbox" position="75,140" size="730,415" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="TemplatedMultiContent">
@@ -974,17 +973,15 @@
 	</screen>
 	<!-- ####### SOFTWARE MANAGER Y AUTOBACKUP->Opciones Avandas->Seleccion de carpetas y archivos del backup (Select backup files) ####### -->
 	<screen name="BackupSelection" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenerica_sRGY"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<panel name="ScrollBarTemplate"/>
-		<panel name="sRGY"/>
 		<widget name="checkList" position="75,140" size="730,425" scrollbarMode="showOnDemand" selectionPixmap="Vision-Turquoise-HD/icons/ls700x30-h.png" transparent="1"/>
 	</screen>
 	<!-- ####### MANEJAR EXTENSIONES informacion de actividad del administrador de plugins ####### -->
 	<screen name="PluginManagerInfo" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenerica_sRG"/>
-		<panel name="sRG"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="PIG"/>
 		<panel name="Title"/>
 		<panel name="ScrollBarTemplate"/>
@@ -1004,11 +1001,10 @@
 	</screen>
 	<!-- ####### DETALLES PARA EL PLUGIN ####### -->
 	<screen name="PluginDetails" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenerica_sRG"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<panel name="ScrollBarTemplate"/>
-		<panel name="sRG"/>
 		<widget source="author" render="Label" position="80,140" size="500,25" foregroundColor="#004ccbde" font="Regular;21" transparent="1"/>
 		<widget name="statuspic" position="710,130" size="48,48" alphatest="on"/>
 		<widget name="divpic" position="80,175" size="670,2" alphatest="on"/>
@@ -1017,7 +1013,7 @@
 	</screen>
 	<!-- ####### ADMINISTRADOR DE SOFTWARE ####### -->
 	<screen name="UpdatePluginMenu" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaRexit"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="PIG"/>
 		<panel name="Title"/>
 		<panel name="ScrollBarTemplate"/>
@@ -1089,20 +1085,18 @@
 	</screen>
 	<!-- ####### MANEJAR SOFTWARE->Opciones Avandas->Advanded restore ####### -->
 	<screen name="RestoreMenu" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenerica_sRGY"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<panel name="ScrollBarTemplate"/>
-		<panel name="sRGY"/>
 		<widget name="filelist" position="75,140" size="720,425" scrollbarMode="showOnDemand" selectionPixmap="Vision-Turquoise-HD/icons/ls725x26.png" transparent="1"/>
 	</screen>
 	<!-- ####### MANEJAR SOFTWARE->Opciones Avandas->Manejo de paquetes ####### -->
 	<screen name="PacketManager" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaRG"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="PIG"/>
 		<panel name="Title"/>
 		<panel name="ScrollBarTemplate"/>
-		<panel name="sRG"/>
 		<widget source="list" render="Listbox" position="75,140" size="730,400" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -1119,20 +1113,18 @@
 	</screen>
 	<!-- ####### MANEJAR SOFTWARE->Opciones Avandas->Seleccion fuente de Actualizacion ####### -->
 	<screen name="IPKGMenu" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenerica_sRG"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<panel name="ScrollBarTemplate"/>
-		<panel name="sRG"/>
 		<widget name="filelist" position="75,140" size="720,425" scrollbarMode="showOnDemand" selectionPixmap="Vision-Turquoise-HD/icons/ls725x26.png" transparent="1"/>
 	</screen>
 	<!-- ####### MANEJAR SOFTWARE->TECLA MENU ####### ********** -->
 	<screen name="SoftwareManagerSetup" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenerica_sRG"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<panel name="ScrollBarTemplate"/>
-		<panel name="sRG"/>
 		<widget name="config" position="80,140" size="705,425" transparent="1" scrollbarMode="showOnDemand"/>
 	</screen>
 
