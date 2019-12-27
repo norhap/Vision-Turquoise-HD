@@ -1963,6 +1963,7 @@
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
+		<ePixmap pixmap="icons/key_info.png" position="8,640" size="40,22" alphatest="blend"/>
 		<widget source="nimlist" render="Listbox" position="80,150" size="725,400" selectionPixmap="Vision-Turquoise-HD/icons/ls700x100.png" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
