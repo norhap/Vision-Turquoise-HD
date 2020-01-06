@@ -71,7 +71,7 @@
 	</screen>
 	<screen name="PantallaGenerica_sY">
 		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
-		<ePixmap position="460,635" zPosition="1" size="140,35" pixmap="Vision-Turquoise-HD/menu/colorbarY.png" alphatest="blend" transparent="1"/>
+		<ePixmap position="460,635" zPosition="1" size="140,35" pixmap="menu/colorbarY.png" alphatest="blend" transparent="1"/>
 	</screen>
 	<!-- ####### Template solo para Lista de Canales ####### -->
 	<screen name="PantallaListaCanales">
