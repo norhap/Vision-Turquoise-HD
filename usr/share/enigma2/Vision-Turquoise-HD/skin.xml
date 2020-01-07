@@ -258,7 +258,7 @@
 		<eLabel position="5,715" size="1271,2" backgroundColor="#0000fafa" zPosition="1"/>
 		<eLabel position="1275,2" size="2,715" backgroundColor="#0000fafa" zPosition="1"/>
 		<ePixmap pixmap="icons/input_info.png" position="605,275" size="1280,720" alphatest="blend"/>
-		<widget name="text" position="280,350" size="720,75" zPosition="2" transparent="1" font="Regular;27" halign="center"/>
+		<widget name="text" position="280,350" size="720,150" zPosition="2" transparent="1" font="Regular;27" halign="center"/>
 	</screen>
 	<!-- ####### VirtualKeyBoard ####### -->
 	<screen name="VirtualKeyBoard" position="590,165" size="660,450" backgroundColor="#0003424a" zPosition="99" title="Virtual KeyBoard">
