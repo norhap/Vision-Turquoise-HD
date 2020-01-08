@@ -214,6 +214,31 @@
 		<widget name="key_blue" objectTypes="key_blue,Label,Button" position="650,614" size="165,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
 		<widget source="key_blue" render="Label" objectTypes="key_blue,StaticText" position="650,614" size="165,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
 	</screen>
+	<!-- ####### PANTALLA PARA SETUP GENERAL PARA BOTONES ROJO VERDE AMARILLO  + SOURCE + NAME ####### -->
+	<screen name="PantallaGenericaConfigRGY">
+		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
+		<!-- Rojo boton -->
+		<ePixmap objectTypes="key_red,Button,Label" pixmap="menu/colorbarR.png" position="60,635" size="140,35" alphatest="blend" transparent="1"/>
+		<widget source="key_red" objectTypes="key_red,StaticText" render="Pixmap" pixmap="menu/colorbarR.png" position="60,635" size="140,35" alphatest="blend" transparent="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget name="key_red" objectTypes="key_red,Label,Button" position="55,614" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#00040404" transparent="1" zPosition="2"/>
+		<widget source="key_red" render="Label" objectTypes="key_red,StaticText" position="55,614" size="160,45" font="Regular;21" halign="center" valign="center" backgroundColor="#00040404" transparent="1" zPosition="2"/>
+		<!-- Verde boton -->
+		<ePixmap objectTypes="key_green,Button,Label" pixmap="menu/colorbarG.png" position="260,635" size="140,35" alphatest="blend" transparent="1"/>
+		<widget source="key_green" objectTypes="key_green,StaticText" render="Pixmap" pixmap="menu/colorbarG.png" position="260,635" size="140,35" alphatest="blend" transparent="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget name="key_green" objectTypes="key_green,Label,Button" position="255,614" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0a" transparent="1" zPosition="2"/>
+		<widget source="key_green" render="Label" objectTypes="key_green,StaticText" position="255,614" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0a" transparent="1" zPosition="2"/>
+		<!-- Amarillo boton -->
+		<ePixmap objectTypes="key_yellow,Button,Label" pixmap="menu/colorbarY.png" position="460,635" size="140,35" alphatest="blend" transparent="1"/>
+		<widget source="key_yellow" objectTypes="key_yellow,StaticText" render="Pixmap" pixmap="menu/colorbarY.png" position="460,635" size="140,35" alphatest="blend" transparent="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget name="key_yellow" objectTypes="key_yellow,Label,Button" position="455,614" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
+		<widget source="key_yellow" render="Label" objectTypes="key_yellow,StaticText" position="455,614" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
+	</screen>
 	<screen name="WidgetSource_RGYB">
 		<widget objectTypes="key_red,StaticText" source="key_red" render="Label" position="5,620" size="250,45" zPosition="2" transparent="1" font="Regular;21" halign="center" valign="center"/>
 		<widget objectTypes="key_green,StaticText" source="key_green" render="Label" position="255,620" size="150,45" zPosition="2" transparent="1" font="Regular;21" halign="center" valign="center"/>

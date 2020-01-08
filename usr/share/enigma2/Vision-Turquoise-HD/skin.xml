@@ -1971,7 +1971,7 @@
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
-		<widget name="list" position="80,138" size="715,425" scrollbarMode="showOnDemand" itemHeight="25" transparent="1"/>
+		<widget name="list" position="80,138" size="730,425" scrollbarMode="showOnDemand" itemHeight="25" transparent="1"/>
 		<widget name="hint" position="845,410" size="380,195" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" transparent="1"/>
 	</screen>
 	<!-- ####### select Slot ####### -->
@@ -2595,7 +2595,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	</screen>
 	<!-- #######  PANTALLA AÑADIR TEMPORIZADOR DE EVENTOS EN EPG ####### -->
 	<screen name="TimerEntry" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaConfig"/>
+		<panel name="PantallaGenericaConfigRGY"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="PIG"/>
 		<panel name="Title"/>
