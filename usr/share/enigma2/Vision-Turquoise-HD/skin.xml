@@ -115,7 +115,7 @@
 		<widget source="key_yellow" render="Label" position="380,615" size="300,50" font="Regular;21" halign="center" valign="center" backgroundColor="#000c0d0e" transparent="1" zPosition="2"/>
 		<widget source="key_blue" render="Label" position="630,595" size="200,90" font="Regular;21" halign="center" valign="center" backgroundColor="#000c0d0e" transparent="1" zPosition="2"/>
 		<ePixmap position="945,535" zPosition="1" size="45,22" pixmap="icons/key_prev_next.png" alphatest="blend" transparent="1"/>
-		<eLabel text="Move Menu Up/Down" position="995,527" size="200,40" foregroundColor="#0000fafa" zPosition="1" transparent="1" font="Regular;21" halign="left"/>
+		<eLabel text="Move Menu Up/Down" position="995,527" size="200,40" foregroundColor="#0000fafa" zPosition="1" transparent="1" font="Regular;19" halign="left"/>
 	</screen>
 	<!-- ********** ####### SETUP ####### ********** -->
 	<screen name="Setup" position="fill" backgroundColor="#00030303" flags="wfNoBorder">
@@ -1902,7 +1902,7 @@
 	<screen name="ExtensionsList" title="" position="fill" flags="wfNoBorder">
 		<panel name="choicebox"/>
 		<ePixmap position="645,635" zPosition="1" size="45,22" pixmap="icons/key_prev_next.png" alphatest="blend" transparent="1"/>
-		<eLabel text="Move Menu Up/Down" position="695,627" size="140,40" backgroundColor="#000b0d0e" zPosition="1" transparent="1" font="Regular;19" halign="left"/>
+		<eLabel text="Move Menu Up/Down" position="695,627" size="140,40" backgroundColor="#000b0d0e" zPosition="1" transparent="1" font="Regular;17" halign="left"/>
 	</screen>
 	<!-- ####### Console ver log backup full instalacion plugins etc  ####### -->
 	<screen name="Console" position="fill">
@@ -2424,7 +2424,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="PIG"/>
 		<widget name="list" position="73,137" size="735,400" scrollbarMode="showOnDemand" selectionPixmap="icons/ls680x50.png" transparent="1"/>
 		<ePixmap position="445,635" zPosition="1" size="45,22" pixmap="icons/key_prev_next.png" alphatest="blend" transparent="1"/>
-		<eLabel text="Move Menu Up/Down" position="495,627" size="140,40" backgroundColor="#000b0d0e" zPosition="1" transparent="1" font="Regular;19" halign="left"/>
+		<eLabel text="Move Menu Up/Down" position="495,627" size="140,40" backgroundColor="#000b0d0e" zPosition="1" transparent="1" font="Regular;17" halign="left"/>
 		<ePixmap pixmap="icons/key_cero.png" position="645,635" size="40,22" transparent="1" zPosition="1"/>
 		<eLabel text="Default" position="690,635" size="100,40" backgroundColor="#000b0d0e" zPosition="1" transparent="1" font="Regular;21" halign="left"/>
 	</screen>
