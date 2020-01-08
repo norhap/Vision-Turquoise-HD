@@ -1908,7 +1908,7 @@
 	<screen name="Console" position="fill">
 		<panel name="PantallaPieTV"/>
 		<panel name="Title"/>
-		<widget name="text" position="110,125" size="695,445" font="Regular;14" transparent="0"/>
+		<widget name="text" position="110,125" size="695,445" font="Regular;16" transparent="0"/>
 	</screen>
 	<!-- ####### clock Display ####### -->
 	<screen name="clockDisplay" position="420,230" size="340,300" title="Clock">
@@ -4570,7 +4570,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="list" position="80,138" size="725,420" backgroundColor="#00030303" transparent="1"/>
+		<widget name="list" position="80,138" size="725,420" font="Regular;16" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<!-- **********IGNORAR SERVICIOS DE LA LISTA********** -->
 	<screen name="filtersServicesSetup" position="fill" flags="wfNoBorder">
