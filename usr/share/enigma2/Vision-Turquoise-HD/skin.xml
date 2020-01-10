@@ -1988,6 +1988,33 @@
 		<widget name="footer" position="845,410" size="380,195" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 	</screen>
+	<!-- ####### Busqueda ciega ####### -->
+	<screen name="Blindscan" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget name="config" position="60,150" size="725,400" transparent="1"/>
+		<widget name="rotorstatus" position="875,430" size="300,25" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<widget text="LOCK" source="Frontend" render="FixedLabel" position="1090,430" size="75,25" zPosition="10" font="Regular;23" halign="right" valign="center" foregroundColor="green" backgroundColor="#00030303" transparent="1">
+			<convert type="FrontendInfo">LOCK</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget name="description" position="845,480" size="380,45" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<widget name="introduction" position="845,540" size="380,45" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
+	</screen>
+	<!-- ####### Estatus Busqueda ciega ####### -->
+	<screen name="BlindscanState" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget name="config" position="60,150" size="725,400" transparent="1"/>
+		<widget name="progress" position="845,430" size="380,85" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<widget name="post_action" position="845,520" size="380,85" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
+	</screen>
 	<!-- ####### Busqueda Manual ####### -->
 	<screen name="ScanSetup" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
