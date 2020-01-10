@@ -2010,7 +2010,7 @@
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="config" position="60,150" size="725,400" transparent="1"/>
+		<widget name="config" position="60,150" size="745,400" scrollbarMode="showOnDemand" transparent="1"/>
 		<widget name="progress" position="845,430" size="380,85" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 		<widget name="post_action" position="845,520" size="380,85" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
