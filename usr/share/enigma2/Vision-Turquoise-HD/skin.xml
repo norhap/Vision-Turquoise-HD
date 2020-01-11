@@ -1995,13 +1995,13 @@
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<widget name="config" position="60,150" size="725,400" transparent="1"/>
-		<widget name="rotorstatus" position="875,430" size="300,25" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<widget name="rotorstatus" position="875,430" size="300,25" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="#00030303" transparent="1"/>
 		<widget text="LOCK" source="Frontend" render="FixedLabel" position="1090,430" size="75,25" zPosition="10" font="Regular;23" halign="right" valign="center" foregroundColor="green" backgroundColor="#00030303" transparent="1">
 			<convert type="FrontendInfo">LOCK</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget name="description" position="845,440" size="380,160" zPosition="10" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
-		<widget name="introduction" position="845,590" size="380,45" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="#00030303" transparent="1"/>
+		<widget name="description" position="845,450" size="380,160" zPosition="10" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<widget name="introduction" position="845,595" size="380,45" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="#00030303" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 	</screen>
 	<!-- ####### Estatus Busqueda ciega ####### -->
