@@ -6028,4 +6028,23 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<eLabel position="fill" backgroundColor="#54111112" zPosition="0"/>
 		<widget name="picture" pixmap="skin_default/screensaverpicture.png" position="0,0" size="150,119" alphatest="blend" zPosition="1"/>
 	</screen>
+	<!--####### TrailerList TMBD ####### -->
+	<screen name="TmbdYTTrailerList" position="fill" title="YT Trailer-List">
+		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
+		<panel name="PIG"/>
+		<panel name="Title_no_menu_patch"/>
+		<panel name="ScrollBarTemplate"/>
+		<widget source="list" render="Listbox" position="80,150" size="725,340" scrollbarMode="showOnDemand">
+			<convert type="TemplatedMultiContent">
+				{"template":
+				"fonts": [gFont("Regular",22), gFont("Regular",16)],
+				[MultiContentEntryPixmapAlphaTest(pos=(0,0),size=(100,72), png=3), # Thumbnail
+				MultiContentEntryText(pos=(110,1), size=(500,70),font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER|RT_WRAP, text=1), # Title
+				],
+				"itemHeight": 72
+                }
+			</convert>
+		</widget>
+		<widget name="thumbnail" position="0,0" size="100,72"/>
+	</screen>
 </skin>
