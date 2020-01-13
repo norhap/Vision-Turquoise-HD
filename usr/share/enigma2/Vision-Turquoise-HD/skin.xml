@@ -6043,6 +6043,6 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 				"itemHeight": 72}
 			</convert>
 		</widget>
-		<!--widget name="thumbnail" position="0,0" size="100,72"/-->
+		<widget source="thumbnail" render="Pixmap" position="0,0" size="100,72" alphatest="blend"/>
 	</screen>
 </skin>
