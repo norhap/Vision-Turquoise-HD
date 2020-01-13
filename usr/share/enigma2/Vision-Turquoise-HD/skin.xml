@@ -590,7 +590,7 @@
 		<widget name="FullDescription" position="85,122" size="0,0" font="Regular;22" halign="left" zPosition="3" foregroundColor="#004ccbde" backgroundColor="#00333333" transparent="1"/>
 		<widget name="epg_description" position="85,122" size="0,0" font="Regular;22" halign="left" zPosition="3" foregroundColor="#004ccbde" backgroundColor="#00333333" transparent="1"/>
 		<widget name="epg_eventname" zPosition="1" position="70,153" font="Regular;21" size="0,0" backgroundColor="#00030303" transparent="0"/>
-		<widget source="Event" render="DRRunningText" zPosition="1" options="movetype=running,direction=top,startpoint=0,startdelay=10000,steptime=90,wrap=1,always=0,repeat=2,oneshot=1" position="75,153" size="720,405" font="Regular;28" foregroundColor="#00ffffff" backgroundColor="#00030303" transparent="1">
+		<widget source="Event" render="DRRunningText" zPosition="1" options="movetype=running,direction=top,startpoint=0,startdelay=10000,steptime=90,wrap=1,always=0,repeat=2,oneshot=1" position="75,153" size="720,425" font="Regular;28" foregroundColor="#00ffffff" backgroundColor="#00030303" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<widget name="channel" position="205,115" size="380,28" font="Regular;28" halign="center" valign="center" zPosition="3" foregroundColor="#004ccbde" backgroundColor="#00333333" transparent="1"/>
@@ -618,7 +618,7 @@
 		<widget name="FullDescription" position="85,122" size="0,0" font="Regular;22" halign="left" zPosition="3" foregroundColor="#004ccbde" backgroundColor="#00333333" transparent="1"/>
 		<widget name="epg_description" position="85,122" size="0,0" font="Regular;22" halign="left" zPosition="3" foregroundColor="#004ccbde" backgroundColor="#00333333" transparent="1"/>
 		<widget name="epg_eventname" zPosition="1" position="70,153" font="Regular;21" size="0,0" backgroundColor="#00030303" transparent="0"/>
-		<widget source="Event" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,steptime=90,wrap=1,always=0,repeat=2,oneshot=1" zPosition="1" position="75,153" size="710,405" font="Regular;28" foregroundColor="#00ffffff" backgroundColor="#00030303" transparent="1">
+		<widget source="Event" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,steptime=90,wrap=1,always=0,repeat=2,oneshot=1" zPosition="1" position="75,153" size="710,425" font="Regular;28" foregroundColor="#00ffffff" backgroundColor="#00030303" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<widget name="datetime" position="839,351" size="380,28" font="Regular;26" halign="left" zPosition="3" backgroundColor="#00333333" transparent="1"/>
@@ -2705,7 +2705,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget source="key_green" render="Label" position="350,281" zPosition="2" size="250,40" font="Regular;22" halign="center" valign="center" backgroundColor="#000c0d0e" transparent="1"/>
 		<widget source="key_yellow" render="Label" position="649,281" zPosition="2" size="250,40" font="Regular;22" halign="center" valign="center" backgroundColor="#000c0d0e" transparent="1"/>
 		<widget name="config" position="20,20" size="910,225" scrollbarMode="showOnDemand" zPosition="1" transparent="1"/>
-	</screen>********** -->
+	</screen>
 	<!-- ####### WebIfInterfaceListConfigScreen ####### -->
 	<screen name="WebIfInterfaceListConfigScreen" position="center,center" size="1130,340" title="Webinterface: List of configured Interfaces">
 		<ePixmap pixmap="menu/backbox.png" zPosition="-1" position="0,0" size="1130,340" alphatest="on"/>
