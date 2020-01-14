@@ -2235,7 +2235,7 @@
 		<widget name="QuestionPixmap" pixmap="icons/input_question.png" position="100,108" size="53,53" alphatest="on"/>
 		<widget name="InfoPixmap" pixmap="icons/input_info.png" position="100,108" size="53,53" alphatest="on"/>
 		<widget name="WarningPixmap" pixmap="icons/input_info.png" position="100,108" size="53,53" alphatest="on"/>
-		<widget name="list" position="110,90" size="480,375" scrollbarMode="showOnDemand" selectionPixmap="icons/ls550x26.png" transparent="1"/>
+		<widget name="list" position="110,90" size="480,375" scrollbarMode="showOnDemand" selectionPixmap="icons/ls645x26.png" transparent="1"/>
 		<applet type="onLayoutFinish">
 # this should be factored out into some helper code, but currently demonstrates applets.
 from enigma import eSize, ePoint
