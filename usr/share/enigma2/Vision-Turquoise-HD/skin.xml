@@ -2257,7 +2257,7 @@ wsize = (wsizex, wsizey)
 # resize label
 self[&quot;text&quot;].instance.resize(eSize(*textsize))
 # move list
-listsize = (wsizex - 20, 200)
+listsize = (wsizex - 20, 375)
 self[&quot;list&quot;].instance.move(ePoint(145, textsize[1] + 70))
 self[&quot;list&quot;].instance.resize(eSize(*listsize))
 # center window
