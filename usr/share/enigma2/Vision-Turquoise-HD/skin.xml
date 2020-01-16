@@ -2265,10 +2265,12 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	<!-- ####### MessageBox ####### -->
 	<screen name="MessageBox" position="fill" flags="wfNoBorder">
 		<panel name= "MessageBoxTemplate"/>
+		<panel name="autoresize"/>
 	</screen>
 	<!-- ####### MessageBoxSimple ####### -->
 	<screen name="MessageBoxSimple" position="fill" flags="wfNoBorder">
 		<panel name= "MessageBoxTemplate"/>
+		<panel name="autoresize"/>
 	</screen>
 	<!-- ####### MENU PARA CONFIGURAR RUTAS DE GRABACION MARCADORES NORHAP ####### -->
 	<screen name="LocationBox" position="fill" flags="wfNoBorder">
