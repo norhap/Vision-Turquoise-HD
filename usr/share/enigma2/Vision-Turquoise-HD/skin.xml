@@ -2183,47 +2183,47 @@
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget name="config" position="80,138" size="690,400" scrollbarMode="showOnDemand" itemHeight="25" transparent="1"/>
 	</screen>
-	<!-- ####### Satfinder ####### -->
+	<!-- ####### Buscador de Señal ####### -->
 	<screen name="Satfinder" position="fill" title="Satfinder">
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<ePixmap pixmap="icons/dish.png" position="150,115" zPosition="0" size="140,146" transparent="1" alphatest="on"/>
-		<widget source="Frontend" render="Label" position="405,117" zPosition="2" size="280,20" font="Regular;21" halign="center" valign="center" transparent="1">
+		<ePixmap pixmap="icons/dish.png" position="950,495" zPosition="0" size="140,146" transparent="1" alphatest="on"/>
+		<widget source="Frontend" render="Label" position="880,117" zPosition="2" size="280,20" font="Regular;21" halign="center" valign="center" transparent="1">
 			<convert type="FrontendInfo">SNRdB</convert>
 		</widget>
-		<eLabel name="snr" text="SNR:" position="315,145" size="60,22" font="Regular;21" halign="right" transparent="1"/>
-		<widget source="Frontend" render="Progress" position="405,145" size="280,20" pixmap="icons/bar_snr_finder.png" borderWidth="2" transparent="1" borderColor="#00cccccc">
+		<eLabel name="snr" text="SNR:" position="820,145" size="60,22" zPosition="2" font="Regular;19" halign="right" transparent="1"/>
+		<widget source="Frontend" render="Progress" position="880,145" size="280,20" zPosition="2" pixmap="icons/bar_snr_finder.png" borderWidth="2" transparent="1" borderColor="#00cccccc">
 			<convert type="FrontendInfo">SNR</convert>
 		</widget>
-		<widget source="Frontend" render="Label" position="705,145" size="70,22" font="Regular;21">
+		<widget source="Frontend" render="Label" position="1175,145" size="70,22" zPosition="2" font="Regular;19" transparent="1">
 			<convert type="FrontendInfo">SNR</convert>
 		</widget>
-		<eLabel name="agc" text="AGC:" position="315,170" size="60,22" font="Regular;21" halign="right" transparent="1"/>
-		<widget source="Frontend" render="Progress" position="405,170" size="280,20" pixmap="icons/bar_snr_finder.png" borderWidth="2" transparent="1" borderColor="#00cccccc">
+		<eLabel name="agc" text="AGC:" position="820,170" size="60,22" zPosition="2" font="Regular;19" halign="right" transparent="1"/>
+		<widget source="Frontend" render="Progress" position="880,170" size="280,20" zPosition="2" pixmap="icons/bar_snr_finder.png" borderWidth="2" transparent="1" borderColor="#00cccccc">
 			<convert type="FrontendInfo">AGC</convert>
 		</widget>
-		<widget source="Frontend" render="Label" position="705,170" size="70,22" font="Regular;21">
+		<widget source="Frontend" render="Label" position="1175,170" size="70,22" zPosition="2" font="Regular;19" transparent="1">
 			<convert type="FrontendInfo">AGC</convert>
 		</widget>
-		<eLabel name="ber" text="BER:" position="315,195" size="60,22" font="Regular;21" halign="right" transparent="1"/>
-		<widget source="Frontend" render="Progress" position="405,195" size="280,20" pixmap="icons/bar_ber_finder.png" borderWidth="2" transparent="1" borderColor="#00cccccc">
+		<eLabel name="ber" text="BER:" position="820,195" size="60,22" zPosition="2" font="Regular;19" halign="right" transparent="1"/>
+		<widget source="Frontend" render="Progress" position="880,195" size="280,20" zPosition="2" pixmap="icons/bar_ber_finder.png" borderWidth="2" transparent="1" borderColor="#00cccccc">
 			<convert type="FrontendInfo">BER</convert>
 		</widget>
-		<widget source="Frontend" render="Label" position="705,195" size="60,22" font="Regular;21">
+		<widget source="Frontend" render="Label" position="1175,195" size="60,22" zPosition="2" font="Regular;19" transparent="1">
 			<convert type="FrontendInfo">BER</convert>
 		</widget>
-		<eLabel name="lock" text="Lock:" position="300,225" size="80,25" font="Regular;21" halign="right" transparent="1"/>
-		<widget source="Frontend" render="Pixmap" pixmap="icons/lock_on.png" position="405,220" zPosition="1" size="38,31" transparent="1" alphatest="on">
+		<eLabel name="lock" text="Lock:" position="835,225" size="80,25" font="Regular;21" zPosition="2" halign="right" transparent="1"/>
+		<widget source="Frontend" render="Pixmap" pixmap="icons/lock_on.png" position="915,220" zPosition="2" size="38,31" transparent="1" alphatest="on">
 			<convert type="FrontendInfo">LOCK</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="Frontend" render="Pixmap" pixmap="icons/lock_off.png" position="415,220" zPosition="1" size="38,31" alphatest="on">
+		<widget source="Frontend" render="Pixmap" pixmap="icons/lock_off.png" position="920,220" zPosition="2" size="38,31" alphatest="on">
 			<convert type="FrontendInfo">LOCK</convert>
 			<convert type="ConditionalShowHide">Invert</convert>
 		</widget>
-		<widget name="config" position="80,275" size="695,400" scrollbarMode="showOnDemand" transparent="1"/>
+		<widget name="config" position="80,110" size="720,480" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget name="introduction" position="870,470" size="320,20" font="Regular;21" halign="center" transparent="1" foregroundColor="#004ccbde" backgroundColor="#00030303"/>
 	</screen>
