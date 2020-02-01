@@ -1104,7 +1104,7 @@
 		</widget>
 	</screen>
 	<!-- ####### MANEJAR SOFTWARE->Opciones Avandas->Seleccion fuente de Actualizacion ####### -->
-	<screen name="IPKGMenu" position="fill" flags="wfNoBorder">
+	<screen name="OPKGMenu" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
@@ -1231,7 +1231,7 @@
 	<screen name="InstallWizard" position="15,80" size="1280,720" zPosition="-1" backgroundColor="#03424a" title="Welcome...">
 		<widget name="config" zPosition="1" position="15,25" size="750,600" backgroundColor="#03424a" scrollbarMode="showOnDemand" transparent="1"/>
 	</screen>
-	<screen name="InstallWizardIpkgUpdater" position="fill" backgroundColor="#0003424a" flags="wfNoBorder">
+	<screen name="InstallWizardOpkgUpdater" position="fill" backgroundColor="#0003424a" flags="wfNoBorder">
 		<ePixmap pixmap="icons/input_info.png" position="605,275" size="1280,720" alphatest="blend"/>
 		<widget source="statusbar" render="Label" position="280,350" size="720,75" foregroundColor="#00ffffff" zPosition="2" transparent="1" font="Regular;27" halign="center"/>
 	</screen>
@@ -2959,8 +2959,8 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget name="text" position="10,20" size="550,25" font="Regular;25"/>
 		<widget name="input" position="10,55" size="550,25" font="Regular;21"/>
 	</screen>
-	<!-- ####### INSTALAR IPKG ####### -->
-	<screen name="Ipkg" position="fill" title="Installing Software...">
+	<!-- ####### INSTALAR OPKG ####### -->
+	<screen name="Opkg" position="fill" title="Installing Software...">
 		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="PIG"/>
@@ -2971,16 +2971,16 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget name="package" position="80,215" size="530,24" font="Regular;21" halign="center" valign="center" backgroundColor="#00101010" transparent="1"/>
 		<widget name="status" position="80,300" size="530,100" font="Regular;21" halign="center" valign="center" backgroundColor="#00101010" transparent="1"/>
 	</screen>
-	<!-- ####### IPKGSource EDITAR URL SRC FEED ####### -->
-	<screen name="IPKGSource" position="fill" flags="wfNoBorder">
+	<!-- ####### OPKGSource EDITAR URL SRC FEED ####### -->
+	<screen name="OPKGSource" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<widget name="text" position="80,200" size="670,25" font="Regular;22" backgroundColor="#00030303" foregroundColor="#00cccccc"/>
 	</screen>
-	<!-- ####### IpkgInstaller ####### -->
-	<screen name="IpkgInstaller" position="center,center" size="600,520" title="Install extensions">
+	<!-- ####### OpkgInstaller ####### -->
+	<screen name="OpkgInstaller" position="center,center" size="600,520" title="Install extensions">
 		<ePixmap pixmap="menu/backbox.png" zPosition="-1" position="0,0" size="600,520" alphatest="on"/>
 		<ePixmap pixmap="buttons/red25.png" position="33,460" size="250,40" alphatest="on"/>
 		<ePixmap pixmap="buttons/green25.png" position="317,460" size="250,40" alphatest="on"/>
