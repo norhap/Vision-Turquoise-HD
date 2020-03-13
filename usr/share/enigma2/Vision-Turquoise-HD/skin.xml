@@ -73,6 +73,10 @@
 		<pixmap pos="bpBottom" filename="icons/def-bar.png"/>
 	</borderset>
 	</windowstyle>
+	<switchpixmap>
+		<pixmap name="menu_on" filename="skin_default/icons/menu_on.png" />
+		<pixmap name="menu_off" filename="skin_default/icons/menu_off.png" />
+	</switchpixmap>
 	<include filename="skin_Templates.xml"/>
 
 	<!-- **********Menu Horizontal********** -->
