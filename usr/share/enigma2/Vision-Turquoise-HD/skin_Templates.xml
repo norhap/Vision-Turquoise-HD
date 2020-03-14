@@ -470,7 +470,7 @@
 		<panel name="ScrollBarTemplate"/>
 		<widget name="text" position="105,90" size="670,95" font="Regular;21" halign="center" valign="center" backgroundColor="#00030303" foregroundColor="#00a1d1ff" transparent="1"/>
 		<widget name="description" conditional="description" position="250,160" size="380,40" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
-		<widget name="list" position="60,205" size="745,350" backgroundColor="#00030303" scrollbarMode="showOnDemand" selectionPixmap="icons/ls700x30-h.png" transparent="1"/>
+		<widget name="list" position="60,205" size="745,380" backgroundColor="#00030303" scrollbarMode="showOnDemand" selectionPixmap="icons/ls700x30-h.png" transparent="1"/>
 		<widget source="session.CurrentService" render="Label" position="755,0" size="550,40" halign="center" valign="center" font="Regular;21" transparent="1" foregroundColor="#0000fafa" backgroundColor="#00030303" zPosition="1">
 			<convert type="BTVInfo">Actividad</convert>
 		</widget>
