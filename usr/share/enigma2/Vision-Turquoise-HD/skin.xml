@@ -2192,33 +2192,35 @@
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
-		<panel name="PIG"/>
+		<widget source="global.CurrentTime" render="Label" position="949,55" size="160,40" zPosition="2" font="LCD;38" valign="top" halign="center" foregroundColor="#004ccbde" backgroundColor="#00121212" transparent="1">
+			<convert type="ClockToText">Format:%H:%M :%S</convert>
+		</widget>
 		<ePixmap pixmap="icons/dish.png" position="950,495" zPosition="0" size="140,146" transparent="1" alphatest="on"/>
-		<widget source="Frontend" render="Label" position="880,117" zPosition="2" size="280,20" font="Regular;21" halign="center" valign="center" transparent="1">
+		<widget source="Frontend" render="Label" position="880,117" zPosition="2" size="280,20" backgroundColor="#00030303" font="Regular;21" halign="center" valign="center" transparent="1">
 			<convert type="FrontendInfo">SNRdB</convert>
 		</widget>
-		<eLabel name="snr" text="SNR:" position="820,145" size="60,22" zPosition="2" font="Regular;19" halign="right" transparent="1"/>
+		<eLabel name="snr" text="SNR:" position="820,145" size="60,22" backgroundColor="#00030303" zPosition="2" font="Regular;19" halign="right" transparent="1"/>
 		<widget source="Frontend" render="Progress" position="880,145" size="280,20" zPosition="2" pixmap="icons/bar_snr_finder.png" borderWidth="2" transparent="1" borderColor="#00cccccc">
 			<convert type="FrontendInfo">SNR</convert>
 		</widget>
-		<widget source="Frontend" render="Label" position="1165,145" size="70,22" zPosition="2" font="Regular;19" transparent="1">
+		<widget source="Frontend" render="Label" position="1165,145" size="70,22" zPosition="2" backgroundColor="#00030303" font="Regular;19" transparent="1">
 			<convert type="FrontendInfo">SNR</convert>
 		</widget>
-		<eLabel name="agc" text="AGC:" position="820,170" size="60,22" zPosition="2" font="Regular;19" halign="right" transparent="1"/>
+		<eLabel name="agc" text="AGC:" position="820,170" size="60,22" zPosition="2" backgroundColor="#00030303" font="Regular;19" halign="right" transparent="1"/>
 		<widget source="Frontend" render="Progress" position="880,170" size="280,20" zPosition="2" pixmap="icons/bar_snr_finder.png" borderWidth="2" transparent="1" borderColor="#00cccccc">
 			<convert type="FrontendInfo">AGC</convert>
 		</widget>
-		<widget source="Frontend" render="Label" position="1165,170" size="70,22" zPosition="2" font="Regular;19" transparent="1">
+		<widget source="Frontend" render="Label" position="1165,170" size="70,22" backgroundColor="#00030303" zPosition="2" font="Regular;19" transparent="1">
 			<convert type="FrontendInfo">AGC</convert>
 		</widget>
-		<eLabel name="ber" text="BER:" position="820,195" size="60,22" zPosition="2" font="Regular;19" halign="right" transparent="1"/>
+		<eLabel name="ber" text="BER:" position="820,195" size="60,22" zPosition="2" backgroundColor="#00030303" font="Regular;19" halign="right" transparent="1"/>
 		<widget source="Frontend" render="Progress" position="880,195" size="280,20" zPosition="2" pixmap="icons/bar_ber_finder.png" borderWidth="2" transparent="1" borderColor="#00cccccc">
 			<convert type="FrontendInfo">BER</convert>
 		</widget>
-		<widget source="Frontend" render="Label" position="1165,195" size="60,22" zPosition="2" font="Regular;19" transparent="1">
+		<widget source="Frontend" render="Label" position="1165,195" size="60,22" backgroundColor="#00030303" zPosition="2" font="Regular;19" transparent="1">
 			<convert type="FrontendInfo">BER</convert>
 		</widget>
-		<eLabel name="lock" text="Lock:" position="835,225" size="80,25" font="Regular;21" zPosition="2" halign="right" transparent="1"/>
+		<eLabel name="lock" text="Lock:" position="835,225" size="80,25" backgroundColor="#00030303" font="Regular;21" zPosition="2" halign="right" transparent="1"/>
 		<widget source="Frontend" render="Pixmap" pixmap="icons/lock_on.png" position="915,220" zPosition="2" size="38,31" transparent="1" alphatest="on">
 			<convert type="FrontendInfo">LOCK</convert>
 			<convert type="ConditionalShowHide"/>
@@ -2227,7 +2229,7 @@
 			<convert type="FrontendInfo">LOCK</convert>
 			<convert type="ConditionalShowHide">Invert</convert>
 		</widget>
-		<widget name="config" position="80,110" size="720,480" transparent="1"/>
+		<widget name="config" position="80,130" size="720,460" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget name="introduction" position="870,470" size="320,20" font="Regular;21" halign="center" transparent="1" foregroundColor="#004ccbde" backgroundColor="#00030303"/>
 	</screen>
@@ -3413,29 +3415,14 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 			<convert type="ServiceInfo">IsCrypted</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="235,677" size="400,60" font="Regular;14" valign="top" halign="left" foregroundColor="#004ccbde" backgroundColor="#000b0b0b" transparent="1" zPosition="5">
+		<widget source="session.CurrentService" render="Label" position="235,677" size="400,60" font="Regular;13" valign="top" halign="left" foregroundColor="#004ccbde" backgroundColor="#000b0b0b" transparent="1" zPosition="5">
 			<convert type="CryptoInfo">VerboseInfo</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="480,692" size="250,24" font="Regular;14" valign="top" halign="right" foregroundColor="#00a1d1ff" backgroundColor="#000b0b0b" transparent="1" zPosition="5">
+		<widget source="session.CurrentService" render="Label" position="303,693" size="250,24" font="Regular;14" valign="top" halign="right" foregroundColor="#00a1d1ff" backgroundColor="#000b0b0b" transparent="1" zPosition="5">
 			<convert type="PliExtraInfo">CryptoSpecial</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="800,690" size="60,50" backgroundColor="#000b0b0b" foregroundColor="#004ccbde" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
-			<convert type="PliExtraInfo">OrbitalPosition</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="860,690" size="60,15" backgroundColor="#000b0b0b" foregroundColor="foreground" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
-			<convert type="PliExtraInfo">TransponderFrequency</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="910,690" size="18,15" backgroundColor="#000b0b0b" foregroundColor="foreground" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
-			<convert type="PliExtraInfo">TransponderPolarization</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="930,690" size="65,50" backgroundColor="#000b0b0b" foregroundColor="#004ccbde" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
-			<convert type="PliExtraInfo">TransponderSymbolRate</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="985,690" size="37,15" backgroundColor="#000b0b0b" foregroundColor="foreground" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
-			<convert type="PliExtraInfo">TransponderFEC</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="1020,690" size="60,50" backgroundColor="#000b0b0b" foregroundColor="#004ccbde" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
-			<convert type="PliExtraInfo">TransponderModulation</convert>
+		<widget source="session.CurrentService" render="Label" position="613,693" size="460,20" backgroundColor="#000b0b0b" foregroundColor="#004ccbde" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
+			<convert type="PliExtraInfo">TransponderInfo</convert>
 		</widget>
 		<widget source="session.CurrentService" render="FixedLabel" text="HBBTV" position="1115,665" size="50,22" zPosition="2" font="LCD;18" halign="center" foregroundColor="#00a1d1ff" backgroundColor="#000d0d0d" transparent="1">
 			<convert type="ServiceInfo">HasHBBTV</convert>
