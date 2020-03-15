@@ -4680,7 +4680,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="PIG"/>
 		<ePixmap position="930,414" size="200,200" zPosition="2" pixmap="menu/ico_timer.png" alphatest="blend"/>
 		<widget source="parent.Title" render="Label" position="130,45" size="580,24" font="Regular;21" backgroundColor="#00030303" transparent="1"/>
-		<widget source="entry" render="Label" position="80,140" size="560,24" scrollbarMode="showOnDemand" font="Regular;21" backgroundColor="#00030303" transparent="1"/>
+		<widget source="entry" render="Label" position="80,140" size="560,24" font="Regular;21" backgroundColor="#00030303" transparent="1"/>
 		<widget source="global.CurrentTime" render="Label" position="80,170" size="82,18" font="Regular;18" backgroundColor="#00030303" transparent="1">
 			<convert type="ClockToText">WithSeconds</convert>
 		</widget>
