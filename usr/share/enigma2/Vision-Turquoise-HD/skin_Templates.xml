@@ -26,7 +26,7 @@
 	<!-- ### TEMPLATE PIG + Nombre Evento + Progreso + Reloj LCD 2 Pantallas Izquierda ### -->
 	<screen name="PIG">
 	<!-- PIG -->
-		<widget source="session.VideoPicture" render="Pig" position="835,110" size="385,210" zPosition="1" backgroundColor="#df0b1300"/>
+		<widget source="session.VideoPicture" render="Pig" position="840,110" size="385,210" zPosition="1" backgroundColor="#df0b1300"/>
 		<eLabel position="835,305" size="390,25" backgroundColor="#20101010" zPosition="3"/>
 		<widget source="session.CurrentService" render="DRRunningText" options="movetype=running,startpoint=0,startdelay=3000,wrap=0,always=0,repeat=2,oneshot=1" noWrap="1" position="883,305" size="292,25" zPosition="4" backgroundColor="#20101010" foregroundColor="#0000fafa" font="Regular;21" valign="center" halign="center" transparent="1">
 			<convert type="ServiceName">Name</convert>
