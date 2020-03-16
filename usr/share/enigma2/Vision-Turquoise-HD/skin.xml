@@ -2680,9 +2680,9 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<ePixmap pixmap="buttons/key_info1.png" position="990,390" size="74,36" zPosition="2" alphatest="blend"/>
-		<widget name="timerlist" position="58,150" size="727,420" itemHeight="70" setFont="Regular;15" transparent="1" enableWrapAround="1" zPosition="1"/>
-		<widget name="description" conditional="description" position="830,385" size="400,245" zPosition="10" font="Regular;14" foregroundColor="#004ccbde" halign="center" valign="center" transparent="1"/>
+		<ePixmap pixmap="icons/key_info.png" position="8,640" size="40,22" alphatest="blend"/>
+		<widget name="timerlist" position="58,150" size="727,210" itemHeight="70" setFont="Regular;15" transparent="1" enableWrapAround="1" zPosition="1"/>
+		<widget name="description" conditional="description" position="58,350" size="727,265" zPosition="10" font="xRegular;11" foregroundColor="#004ccbde" halign="center" valign="center" transparent="1"/>
 	</screen>
 	<!-- ####### CDInfo ####### -->
 	<screen name="CDInfo" position="center,center" size="1130,560" title="CDInfo">
