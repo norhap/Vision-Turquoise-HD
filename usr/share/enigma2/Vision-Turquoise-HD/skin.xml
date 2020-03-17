@@ -2998,14 +2998,13 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget name="text" position="80,200" size="670,25" font="Regular;22" backgroundColor="#00030303" foregroundColor="#00cccccc"/>
 	</screen>
 	<!-- ####### OpkgInstaller ####### -->
-	<screen name="OpkgInstaller" position="center,center" size="600,520" title="Install extensions">
-		<ePixmap pixmap="menu/backbox.png" zPosition="-1" position="0,0" size="600,520" alphatest="on"/>
-		<ePixmap pixmap="buttons/red25.png" position="33,460" size="250,40" alphatest="on"/>
-		<ePixmap pixmap="buttons/green25.png" position="317,460" size="250,40" alphatest="on"/>
-		<widget source="key_red" render="Label" position="33,460" zPosition="1" size="250,40" font="Regular;22" halign="center" valign="center" backgroundColor="#009f1313" transparent="1"/>
-		<widget source="key_green" render="Label" position="317,460" zPosition="1" size="250,40" font="Regular;22" halign="center" valign="center" backgroundColor="#001f771f" transparent="1"/>
-		<widget name="list" position="10,20" size="580,360" transparent="1"/>
-		<widget source="introduction" render="Label" position="50,420" zPosition="10" size="500,30" halign="center" valign="center" font="Regular;22" transparent="1" shadowColor="black" shadowOffset="-1,-1"/>
+	<screen name="OpkgInstaller" position="fill" title="UserDialog" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget name="list" scrollbarMode="showOnDemand" position="80,138" size="725,420" backgroundColor="#00030303" transparent="1"/>
+		<widget source="introduction" render="Label" halign="center" valign="center" position="875,400" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" size="300,200" zPosition="1" font="Regular;21" transparent="1"/>
 	</screen>
 	<!-- ####### BackupScreen ####### -->
 	<screen name="BackupScreen" position="center,center" size="800,340" title="Backup running...">
