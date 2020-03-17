@@ -11,8 +11,8 @@
 	</screen>
 	<!-- ### TEMPLATE TITULOS -->
 	<screen name="Title">
-		<widget source="screen_path" render="Label" position="50,11" foregroundColor="#004ccbde" backgroundColor="#040404" size="750,45" zPosition="3" transparent="1" font="xRegular;15" halign="center" valign="top"/>
-		<widget source="Title" render="Label" position="0,31" foregroundColor="#0000fafa" backgroundColor="#00040404" size="850,45" zPosition="2" transparent="1" font="xRegular;20" halign="center" valign="center"/>
+		<widget source="screen_path" render="Label" position="50,11" foregroundColor="#004ccbde" backgroundColor="#040404" size="750,50" zPosition="3" transparent="1" font="xRegular;15" halign="center" valign="top"/>
+		<widget source="Title" render="Label" position="0,47" foregroundColor="#0000fafa" backgroundColor="#00040404" size="850,45" zPosition="2" transparent="1" font="xRegular;20" halign="center" valign="center"/>
 		<ePixmap pixmap="menu/border_title.png" zPosition="1" position="185,0" size="485,100"/>
 	</screen>
 	<screen name="Title_no_menu_patch">
