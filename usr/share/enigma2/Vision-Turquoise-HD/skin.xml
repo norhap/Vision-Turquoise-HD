@@ -3590,6 +3590,15 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<ePixmap position="934,416" zPosition="2" size="200,200"  pixmap="menu/ico_information.png" alphatest="blend" transparent="1"/>
 		<widget name="AboutScrollLabel" position="80,133" size="728,420" font="Regular;21" backgroundColor="#00030303" transparent="1"/>
 	</screen>
+	<!-- **********INFORMACION GEOLOCALIZACION********** -->
+	<screen name="Geolocation" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<ePixmap position="934,416" zPosition="2" size="200,200"  pixmap="menu/ico_information.png" alphatest="blend" transparent="1"/>
+		<widget name="AboutScrollLabel" position="80,133" size="728,420" font="Regular;21" backgroundColor="#00030303" transparent="1"/>
+	</screen>
 	<!-- ####### CANAL SERVICE INFO - INFORMATIONS ####### -->
 	<screen name="ServiceInfo" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
