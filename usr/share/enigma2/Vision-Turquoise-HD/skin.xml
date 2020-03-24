@@ -3712,12 +3712,12 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget source="IFtext" render="Label" position="80,135" size="120,25" font="Regular;22" halign="left" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
-		<widget source="IF" render="Label" position="245,135" size="400,25" font="Regular;22" halign="left" transparent="1" backgroundColor="#00030303" zPosition="10"/>
-		<widget name="devicepic" position="525,125" size="40,40" pixmaps="icons/network_wired.png,icons/network_wireless.png,icons/network_wired-active.png,icons/network_wired-inactive.png,icons/network_wireless-active.png,icons/network_wireless-inactive.png" zPosition="10" alphatest="blend" transparent="1"/>
-		<widget name="AboutScrollLabel" position="80,180" size="690,450" font="Regular;22" backgroundColor="#00030303" transparent="1"/>
-		<widget source="Statustext" render="Label" position="80,535" size="120,25" font="Regular;22" halign="left" backgroundColor="#00030303" transparent="1"/>
-		<widget name="statuspic" position="240,535" size="30,25" pixmaps="icons/lock_on.png,icons/lock_error.png" alphatest="on" transparent="1"/>
+		<widget source="IFtext" render="Label" position="80,130" size="120,25" font="Regular;21" halign="left" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<widget source="IF" render="Label" position="245,130" size="200,25" font="Regular;21" halign="left" transparent="1" backgroundColor="#00030303" zPosition="10"/>
+		<widget name="devicepic" position="680,120" size="40,40" pixmaps="icons/network_wired.png,icons/network_wireless.png,icons/network_wired-active.png,icons/network_wired-inactive.png,icons/network_wireless-active.png,icons/network_wireless-inactive.png" zPosition="10" alphatest="blend" transparent="1"/>
+		<widget name="AboutScrollLabel" position="80,155" size="730,450" font="Regular;21" backgroundColor="#00030303" transparent="1"/>
+		<widget source="Statustext" render="Label" position="455,130" size="120,25" font="Regular;21" halign="left" backgroundColor="#00030303" transparent="1"/>
+		<widget name="statuspic" position="535,130" size="30,25" pixmaps="icons/lock_on.png,icons/lock_error.png" alphatest="on" transparent="1"/>
 		<ePixmap position="925,414" size="256,256" pixmap="menu/ico_wlan.png" alphatest="blend"/>
 	</screen>
 	<screen name="ServiceInfoSimple" position="fill" flags="wfNoBorder">
