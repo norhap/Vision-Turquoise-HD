@@ -2229,13 +2229,6 @@
 			<convert type="FrontendInfo">LOCK</convert>
 			<convert type="ConditionalShowHide">Invert</convert>
 		</widget>
-		<widget name="config" position="90,121" size="695,475" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00030303" transparent="1"/>
-		<eLabel text="TSID:" position="810,250" size="80,22" backgroundColor="#00030303" zPosition="2" font="Regular;20" transparent="1" halign="right"/>
-		<widget source="tsid" render="Label" position="920,250" size="100,25" font="Regular;22" foregroundColor="#004ccbde" backgroundColor="#00030303" halign="left" transparent="1" zPosition="3"/>
-		<eLabel text="ONID:" position="810,275" size="80,25" backgroundColor="#00030303" zPosition="2" font="Regular;20" transparent="1" halign="right"/>
-		<widget source="onid" render="Label" position="920,275" size="100,25" font="Regular;22" foregroundColor="#004ccbde" backgroundColor="#00030303" halign="left" transparent="1" zPosition="3"/>
-		<eLabel text="Orb Pos:" position="815,300" size="100,25" backgroundColor="#00030303" zPosition="2" font="Regular;22" transparent="1" halign="right"/>
-		<widget source="pos" render="Label" position="920,300" size="100,25" font="Regular;22" foregroundColor="#004ccbde" backgroundColor="#00030303" halign="left" transparent="1" zPosition="3"/>
 		<widget name="config" position="80,130" size="720,460" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget name="introduction" position="870,470" size="320,20" font="Regular;21" halign="center" transparent="1" foregroundColor="#004ccbde" backgroundColor="#00030303"/>
@@ -6059,14 +6052,5 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 			</convert>
 		</widget>
 		<widget name="thumbnail" position="0,0" size="100,72"/>
-	</screen>
-	<!--  ####### ServiceList boton amarillo signalfinder-> información #######	 -->
-	<screen name="ServicesFound" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaConfig"/>
-		<panel name="ScrollBarTemplate"/>
-		<panel name="Title"/>
-		<panel name="PIG"/>
-		<widget name="legend" position="80,130" size="590,80" zPosition="10" backgroundColor="#00030303" font="Regular;19" transparent="1"/>
-		<widget name="servicesfound" position="80,200" size="727,450" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 </skin>
