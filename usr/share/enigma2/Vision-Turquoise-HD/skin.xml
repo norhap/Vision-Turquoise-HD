@@ -2247,7 +2247,7 @@
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<widget name="legend" position="80,130" size="590,80" zPosition="10" backgroundColor="#00030303" font="Regular;19" transparent="1"/>
-		<widget name="servicesfound" position="80,200" size="727,450" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
+		<widget name="servicesfound" position="80,200" size="727,390" font="Regular;19" scrollbarMode="showOnDemand" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<!-- ####### MessageBox Template para ambos Mensajes sistema ####### -->
 	<screen name="MessageBoxTemplate" position="fill" flags="wfNoBorder">
