@@ -3570,7 +3570,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	<screen name="downloader" position="0,0" size="1280,35" backgroundColor="#0003424a" flags="wfNoBorder">
 		<panel name="DownloadBar"/>
 	</screen>
-    <!-- DESCARGA MODO BARRA TERRESTRIAL +AUTOBOUQUETSMAKER -->
+	<!-- DESCARGA MODO BARRA TERRESTRIAL +AUTOBOUQUETSMAKER -->
 	<screen name="AutoBouquetsMaker" position="0,0" size="1280,35" backgroundColor="#0003424a" flags="wfNoBorder">
 		<panel name="DownloadBar"/>
 	</screen>
