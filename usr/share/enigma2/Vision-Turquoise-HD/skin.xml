@@ -3698,7 +3698,26 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="PIG"/>
 		<widget name="text" position="80,138" size="718,450" font="Regular;21" halign="left" backgroundColor="#00030303" scrollbarMode="showOnDemand" transparent="1" zPosition="1"/>
 	</screen>
-
+		<!-- ******************** OPENVISION INFORMACION ******************** -->
+	<screen name="OpenVisionInformation" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<ePixmap position="934,416" zPosition="2" size="200,200"  pixmap="menu/ico_information.png" alphatest="blend" transparent="1"/>
+		<eLabel text="Open Vision information" position="300,120" size="270,50" font="Regular;24" halign="center" valign="center" foregroundColor="#0000fafa" backgroundColor="#00030303" transparent="1"/>
+		<widget name="AboutScrollLabel" position="80,170" size="728,420" font="Regular;21" backgroundColor="#00030303" transparent="1"/>
+	</screen>
+	<!-- ******************** DVB INFORMACION ******************** -->
+	<screen name="DVBInformation" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<ePixmap position="934,416" zPosition="2" size="200,200"  pixmap="menu/ico_information.png" alphatest="blend" transparent="1"/>
+		<eLabel text="DVB information" position="300,120" size="270,50" font="Regular;24" halign="center" valign="center" foregroundColor="#0000fafa" backgroundColor="#00030303" transparent="1"/>
+		<widget name="AboutScrollLabel" position="80,170" size="728,420" font="Regular;21" backgroundColor="#00030303" transparent="1"/>
+	</screen>
 	<!-- **********Info Devices OK********** -->
 	<screen name="Devices" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
