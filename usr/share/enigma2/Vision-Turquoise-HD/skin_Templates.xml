@@ -106,13 +106,8 @@
 		<widget source="key_blue" render="Label" objectTypes="key_blue,StaticText" position="650,614" size="165,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
 	</screen>
 	<!-- ####### PANTALLA PARA 1 BOTON ROJO + LABEL EXIT ####### -->
-	<screen name="Template-exit">
-		<eLabel text="Exit" position="5,615" size="250,45" font="Regular;21" halign="center" valign="center" backgroundColor="#00040404" transparent="1" zPosition="2"/>
-	</screen>
-	<screen name="nRG_no_standard">
-		<ePixmap position="57,630" zPosition="1" size="349,45" pixmap="menu/colorbarRG.png" alphatest="blend" transparent="1"/>
-		<widget name="key_red" objectTypes="key_red,Label,Button" position="55,625" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#00040404" transparent="1" zPosition="2"/>
-		<widget name="key_green" objectTypes="key_green,Label,Button" position="255,625" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0a" transparent="1" zPosition="2"/>
+	<screen name="solo-exit">
+		<ePixmap pixmap="icons/key_exit.png" position="8,640" size="40,22" alphatest="blend"/>
 	</screen>
 	<screen name="PantallaGenerica_sRGYB_junto">
 		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
@@ -123,13 +118,6 @@
 	</screen>
 
 	<!-- SOURCES -->
-	<screen name="sG">
-		<widget source="key_green" render="Label" objectTypes="key_green,StaticText" position="255,614" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0a" transparent="1" zPosition="2"/>
-	</screen>
-	<screen name="sRG">
-		<widget source="key_red" render="Label" objectTypes="key_red,StaticText" position="55,614" size="160,45" font="Regular;21" halign="center" valign="center" backgroundColor="#00040404" transparent="1" zPosition="2"/>
-		<widget source="key_green" render="Label" objectTypes="key_green,StaticText" position="255,614" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0a" transparent="1" zPosition="2"/>
-	</screen>
 	<screen name="sRGYB_junto">
 		<widget source="key_red" render="Label" position="25,590" size="155,90" backgroundColor="#000c0d0e" zPosition="2" transparent="1" font="Regular;21" halign="center" valign="center"/>
 		<widget source="key_green" render="Label" position="175,590" size="155,90" backgroundColor="#000c0d0e" zPosition="2" transparent="1" font="Regular;21" halign="center" valign="center"/>
@@ -214,6 +202,7 @@
 		<widget name="key_blue" objectTypes="key_blue,Label,Button" position="650,614" size="165,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
 		<widget source="key_blue" render="Label" objectTypes="key_blue,StaticText" position="650,614" size="165,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
 	</screen>
+
 	<!-- ####### PANTALLA PARA SETUP GENERAL PARA BOTONES ROJO VERDE AMARILLO  + SOURCE + NAME ####### -->
 	<screen name="PantallaGenericaConfigRGY">
 		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
@@ -238,6 +227,16 @@
 		</widget>
 		<widget name="key_yellow" objectTypes="key_yellow,Label,Button" position="455,614" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
 		<widget source="key_yellow" render="Label" objectTypes="key_yellow,StaticText" position="455,614" size="150,45" font="Regular;21" halign="center" valign="center" backgroundColor="#000a0a0e" transparent="1" zPosition="2"/>
+	</screen>
+	<screen name="WidgetNamePixmap_RGYB">
+		<widget name="red" position="60,635" zPosition="1" size="140,35" pixmap="menu/colorbarR.png" alphatest="blend"/>
+		<widget name="green" position="260,635" zPosition="1" size="140,35" pixmap="menu/colorbarG.png" alphatest="blend"/>
+		<widget name="yellow" position="460,635" zPosition="1" size="0,0" pixmap="menu/colorbarY.png" alphatest="blend"/>
+		<widget name="blue" position="660,634" zPosition="1" size="140,35" pixmap="menu/colorbarB.png" alphatest="blend"/>
+	</screen>
+	<screen name="WidgetNamePixmap_RG">
+		<widget name="red" position="60,635" zPosition="1" size="140,35" pixmap="menu/colorbarR.png" alphatest="blend"/>
+		<widget name="green" position="260,635" zPosition="1" size="140,35" pixmap="menu/colorbarG.png" alphatest="blend"/>
 	</screen>
 	<screen name="WidgetSource_RGYB">
 		<widget objectTypes="key_red,StaticText" source="key_red" render="Label" position="5,620" size="250,45" zPosition="2" transparent="1" font="Regular;21" halign="center" valign="center"/>

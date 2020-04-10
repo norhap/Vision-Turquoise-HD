@@ -1082,8 +1082,8 @@
 	<!-- ####### MANEJAR SOFTWARE->INFO ULTIMA ACTUALIZACION EN LINEA ####### -->
 	<screen name="TextBoxPigLess" position="fill" flags="wfNoBorder">
 		<panel name="PantallaPieTV"/>
+		<panel name="solo-exit"/>
 		<widget name="text" position="80,135" backgroundColor="#00030303" size="725,445" font="Regular;18"/>
-		<ePixmap pixmap="icons/key_exit.png" position="8,640" size="40,22" alphatest="blend"/>
 	</screen>
 	<!-- ####### MANEJAR SOFTWARE->Opciones Avandas->Advanded restore ####### -->
 	<screen name="RestoreMenu" position="fill" flags="wfNoBorder">
@@ -3646,7 +3646,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<ePixmap pixmap="icons/key_exit.png" position="60,640" size="140,35" alphatest="blend"/>
+		<panel name="solo-exit"/>
 		<ePixmap position="934,416" zPosition="2" size="200,200" pixmap="menu/ico_information.png" alphatest="blend" transparent="1"/>
 		<widget name="novedades" position="80,133" size="728,450" font="Regular;19" halign="center" backgroundColor="#00030303" transparent="1"/>
 	</screen>
@@ -3659,11 +3659,12 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget source="TranslatorName" render="Label" position="80,150" size="380,30" font="Regular;21"/>
 		<widget source="TranslationInfo" render="Label" position="80,250" size="380,250" font="Regular;21"/>
 	</screen>
-	<!-- ********************ACERDA DE->ok->BOTON AMARILLO SOLUCIONAR PROBLEMAS******************** -->
-	<screen name="Troubleshoot" position="fill">
-		<panel name="PantallaPieTV"/>
+	<!-- ********************ACERDA DE->ok->BOTON AMARILLO ******************** -->
+	<screen name="Troubleshoot" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
-		<panel name="nRG_no_standard"/>
+		<panel name="PIG"/>
 		<widget name="AboutScrollLabel" position="110,125" size="695,445" font="Regular;14" transparent="0"/>
 	</screen>
 	<!-- ********************ACERDA DE->ok->BOTON AZUL INFORMACION DE MEMORIA******************** -->
@@ -4321,32 +4322,27 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	<screen name="YoutubeTVSettings" position="fill" zPosition="1" flags="wfNoBorder">
 		<panel name="PantallaPieTV"/>
 		<panel name="Title"/>
-		<panel name="sRG"/>
+		<panel name="PantallaGenericaConfig"/>
 		<widget name="config" position="80,170" zPosition="3" size="690,60" scrollbarMode="showOnDemand"/>
 		<ePixmap position="63,160" zPosition="2" size="712,537" pixmap="menu/bx_youtube.png" alphatest="blend"/>
-		<ePixmap position="57,625" zPosition="1" size="349,45" pixmap="menu/colorbarRG.png" alphatest="blend"/>
 	</screen>
 	<!-- **********YouTube TV  MENU PRINCIPAL********** -->
 	<screen name="YoutubeTVWindow" position="fill" zPosition="1" flags="wfNoBorder">
 		<panel name="PantallaPieTV"/>
 		<panel name="Title"/>
-		<panel name="Template-exit"/>
-		<panel name="sG"/>
+		<panel name="PantallaGenericaConfig"/>
 		<widget name="helpdesc" position="80,410" font="Regular;21" foregroundColor="#004ccbde" transparent="1" zPosition="4" size="350,25"/>
 		<widget name="startdesc" position="80,440" font="Regular;21" foregroundColor="#004ccbde" transparent="1" zPosition="4" size="350,25"/>
 		<widget name="infomation" position="80,470" font="Regular;21" foregroundColor="#004ccbde" transparent="1" zPosition="4" size="350,50"/>
 		<ePixmap position="63,160" zPosition="2" size="712,537" pixmap="menu/bx_youtube.png" alphatest="blend"/>
-		<ePixmap position="57,625" zPosition="1" size="349,45" pixmap="menu/colorbarRG.png" alphatest="blend"/>
 	</screen>
 	<!-- ## YouTube PLAYER ## -->
 	<screen name="YouTubeMain" position="fill" flags="wfNoBorder">
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="WidgetNamePixmap_RG"/>
 		<ePixmap position="0,0" zPosition="0" size="1280,720" pixmap="menu/fr_main_channels.png"/>
-		<widget name="red" position="100,635" zPosition="1" size="140,35" pixmap="menu/colorbarR.png" alphatest="blend"/>
-		<widget name="green" position="300,635" zPosition="1" size="140,35" pixmap="menu/colorbarG.png" alphatest="blend"/>
-		<widget source="key_red" render="Label" position="45,625" size="250,36" font="Regular;21" halign="center" valign="center" backgroundColor="#000c0d0e" transparent="1" zPosition="2"/>
-		<widget source="key_green" render="Label" position="245,625" size="250,36" font="Regular;21" halign="center" valign="center" backgroundColor="#000c0d0e" transparent="1" zPosition="2"/>
 		<widget source="session.VideoPicture" render="Pig" position="838,112" size="382,218" zPosition="3" backgroundColor="#df0b1300"/>
 		<widget source="session.Event_Now" render="Progress" pixmap="icons/tv_b_bar.png" size="340,2" position="837,338" zPosition="5" backgroundColor="darkgrey" transparent="1">
 			<convert type="EventTime">Progress</convert>
@@ -5319,8 +5315,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	</screen>
 	<!-- **********Softcam Setup OK********** -->
 	<screen name="SoftcamSetup" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenerica2PantallasSolobotonesRG"/>
-		<panel name="WidgetSource_RGYB"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
