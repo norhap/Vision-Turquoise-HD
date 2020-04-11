@@ -2252,8 +2252,8 @@
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="legend" position="80,130" size="590,80" zPosition="10" backgroundColor="#00030303" font="Regular;19" transparent="1"/>
-		<widget name="servicesfound" position="80,200" size="727,390" font="Regular;19" scrollbarMode="showOnDemand" backgroundColor="#00030303" transparent="1"/>
+		<widget name="legend" position="180,130" size="590,25" zPosition="10" backgroundColor="#00030303" font="Regular;19" transparent="1"/>
+		<widget name="servicesfound" position="190,170" size="617,390" font="Regular;19" scrollbarMode="showOnDemand" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<!-- ####### MessageBox Template para ambos Mensajes sistema ####### -->
 	<screen name="MessageBoxTemplate" position="fill" flags="wfNoBorder">
