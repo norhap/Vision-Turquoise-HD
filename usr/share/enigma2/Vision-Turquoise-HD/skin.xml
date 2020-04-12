@@ -5983,8 +5983,8 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="Title_no_menu_patch"/>
 		<panel name="ScrollBarTemplate"/>
 		<widget source="header_name" render="Label" position="80,145" size="360,25" font="Regular;21"/>
-		<widget source="header_provider" render="Label" position="405,145" size="165,25" font="Regular;21"/>
-		<widget source="header_date" render="Label" position="640,145" size="200,25" font="Regular;21"/>
+		<widget source="header_provider" render="Label" position="305,145" size="165,25" font="Regular;21"/>
+		<widget source="header_date" render="Label" position="540,145" size="200,25" font="Regular;21"/>
 		<widget source="subtitles" render="Listbox" scrollbarMode="showOnDemand" position="80,190" size="725,410" zPosition="3" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"templates":
