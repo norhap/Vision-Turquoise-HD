@@ -3446,8 +3446,8 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget source="session.CurrentService" render="Label" position="235,680" size="400,60" font="Regular;13" valign="top" halign="left" foregroundColor="#004ccbde" backgroundColor="#000b0b0b" transparent="1" zPosition="5">
 			<convert type="CryptoInfo">VerboseInfo</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="490,680" size="250,24" font="Regular;14" valign="top" halign="center" foregroundColor="#00a1d1ff" backgroundColor="#000b0b0b" transparent="1" zPosition="5">
-			<convert type="PliExtraInfo">CryptoSpecial</convert>
+		<widget source="session.CurrentService" render="Label" position="510,680" size="200,15" font="Regular;14" valign="top" halign="center" foregroundColor="#00a1d1ff" backgroundColor="#000b0b0b" transparent="1" zPosition="5">
+			<convert type="CaidInfo2"/>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="710,680" size="460,20" backgroundColor="#000b0b0b" foregroundColor="#004ccbde" font="Regular;14" valign="top" halign="left" zPosition="5" transparent="1">
 			<convert type="PliExtraInfo">TransponderInfo</convert>
