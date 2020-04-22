@@ -5791,78 +5791,92 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget source="status" render="Label" position="845,425" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 	</screen>
-	<!-- ******************** CCcam Info ******************** -->
+	<!-- ********** CCcam Info ********** -->
 	<screen name="CCcamInfoMain" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="menu" position="60,145" size="725,427" transparent="1"/>
+		<widget name="menu" position="80,145" size="727,427" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<screen name="CCcamInfoInfoScreen" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>	
+		<widget name="text" position="80,145" size="727,427" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
+	</screen>
+	<screen name="CCcamInfoEcmInfoSelection" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="text" position="80,145" size="725,427" font="Regular;21" transparent="1"/>
+		<widget name="list" position="80,145" size="727,427" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
+	</screen>
+	<screen name="CCcamInfoMenuConfig" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>	
+		<widget name="list" position="80,145" size="727,423" scrollbarMode="showOnDemand" backgroundColor="#00030303" font="Regular;19" transparent="1"/>
 	</screen>
 	<screen name="CCcamInfoSubMenu" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="list" position="80,145" size="718,427" scrollbarMode="showOnDemand" transparent="1"/>
+		<widget name="list" position="80,145" size="727,427" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
-		<widget name="info" position="845,425" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<widget name="info" position="845,425" size="380,160" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<screen name="CCcamInfoServerMenu" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
-		<panel name="PIG"/>
-		<widget name="list" position="80,145" size="718,425" scrollbarMode="showOnDemand" transparent="1"/>
+		<panel name="PIG"/>	
+		<widget name="list" position="80,145" size="727,425" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
-		<widget name="info" position="845,425" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<widget name="info" position="845,425" size="380,160" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<screen name="CCcamShareViewMenu" position="fill" flags="wfNoBorder">
-		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
+		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
-		<panel name="PIG"/>
-		<widget name="uphops" position="80,145" size="695,45" font="Regular;21" transparent="1"/>
-		<widget name="providers" position="80,200" size="695,45" font="Regular;21" transparent="1"/>
-		<widget name="list" position="80,255" size="695,45" transparent="1"/>
-		<widget name="reshare" position="80,310" size="695,45" font="Regular;21" transparent="1"/>
-		<widget name="cards" position="80,365" size="695,45" font="Regular;21" transparent="1"/>
-		<widget name="title" position="80,420" size="695,45" font="Regular;21" transparent="1"/>
+		<panel name="PIG"/>	
+		<widget name="uphops" position="80,140" size="695,25" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
+		<widget name="providers" position="80,170" size="695,25" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
+		<widget name="cards" position="80,200" size="700,25" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
+		<widget name="reshare" position="80,230" size="695,25" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
+		<widget name="title" position="80,260" size="695,100" backgroundColor="#00030303" font="Regular;19" transparent="1"/>
+		<widget name="list" position="80,285" size="727,275" backgroundColor="#00030303" font="Regular;19" scrollbarMode="showOnDemand" transparent="1"/>
 	</screen>
 	<screen name="CCcamInfoShareInfo" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="list" position="60,145" size="738,425" scrollbarMode="showOnDemand" transparent="1"/>
+		<widget name="list" position="80,145" size="727,420" scrollbarMode="showOnDemand" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<screen name="CCcamInfoRemoteBoxMenu" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="list" position="60,145" size="740,427" transparent="1"/>
+		<widget name="list" position="80,145" size="727,427" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<screen name="CCcamInfoConfigSwitcher" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="list" position="60,145" size="725,427" scrollbarMode="showOnDemand"/>
+		<widget name="list" position="80,145" size="727,427" backgroundColor="#00030303" scrollbarMode="showOnDemand"/>
 	</screen>
 	<screen name="CCcamInfoConfigMenu" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
 		<panel name="PIG"/>
-		<widget name="config" position="60,145" size="725,427" scrollbarMode="showOnDemand"/>
+		<widget name="config" position="80,145" size="727,427" backgroundColor="#00030303" scrollbarMode="showOnDemand"/>
 	</screen>
 	<!-- ******************** PLUGIN UserScripts ******************** -->
 	<screen name="UserScriptsPlugin" position="fill" title="User Scripts by Gutemine">
