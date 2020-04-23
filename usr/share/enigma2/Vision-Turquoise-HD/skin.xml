@@ -883,7 +883,7 @@
 		<widget name="now_text" position="50,250" zPosition="4" size="250,28" text="live broadcast" font="Regular;26" halign="center" foregroundColor="#0077d8e6" backgroundColor="#0003424a" transparent="1"/>
 		<widget name="next_text" position="335,250" zPosition="4" size="250,28" text="NEXT" font="Regular;26" halign="center" foregroundColor="#0077d8e6" backgroundColor="#0003424a" transparent="1"/>
 		<widget name="more_text" position="580,250" zPosition="4" size="250,28" text="Other" font="Regular;26" halign="center" foregroundColor="#0077d8e6" backgroundColor="#0003424a" transparent="1"/>
-		<widget source="Event" render="RunningText" options="movetype=running,direction=top,startpoint=0,startdelay=15000,steptime=90,wrap=1,always=0,repeat=2,oneshot=1" position="130,105" size="690,110" zPosition="2" font="Regular;20" halign="center" valign="center" foregroundColor="#00a1d1ff" backgroundColor="#0003424a" transparent="0">
+		<widget source="Event" render="RunningText" options="movetype=running,direction=top,startpoint=0,startdelay=15000,steptime=90,wrap=1,always=0,repeat=2,oneshot=1" position="130,105" size="690,105" zPosition="2" font="Regular;20" halign="center" valign="center" foregroundColor="#00a1d1ff" backgroundColor="#0003424a" transparent="0">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<ePixmap pixmap="icons/key_epg_single.png" position="910,685" size="40,22" alphatest="blend"/>
@@ -5803,7 +5803,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
-		<panel name="PIG"/>	
+		<panel name="PIG"/>
 		<widget name="text" position="80,145" size="727,427" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<screen name="CCcamInfoEcmInfoSelection" position="fill" flags="wfNoBorder">
@@ -5817,7 +5817,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
-		<panel name="PIG"/>	
+		<panel name="PIG"/>
 		<widget name="list" position="80,145" size="727,423" scrollbarMode="showOnDemand" backgroundColor="#00030303" font="Regular;19" transparent="1"/>
 	</screen>
 	<screen name="CCcamInfoSubMenu" position="fill" flags="wfNoBorder">
@@ -5833,7 +5833,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
-		<panel name="PIG"/>	
+		<panel name="PIG"/>
 		<widget name="list" position="80,145" size="727,425" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget name="info" position="845,425" size="380,160" font="Regular;19" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
@@ -5842,7 +5842,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
 		<panel name="Title"/>
-		<panel name="PIG"/>	
+		<panel name="PIG"/>
 		<widget name="uphops" position="80,140" size="695,25" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
 		<widget name="providers" position="80,170" size="695,25" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
 		<widget name="cards" position="80,200" size="700,25" font="Regular;19" backgroundColor="#00030303" transparent="1"/>
