@@ -5791,6 +5791,32 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget source="status" render="Label" position="845,425" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 	</screen>
+	<!-- ******************** Ncam Info ******************** -->
+	<screen name="NcamInfoMenu" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget name="mainmenu" position="60,145" size="725,427" transparent="1"/>
+	</screen>
+	<screen name="OscamInfoConfigScreen" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget name="config" position="60,145" size="725,427" scrollbarMode="showOnDemand"/>
+		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
+		<widget source="status" render="Label" position="845,425" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+	</screen>
+	<screen name="NcamInfoConfigScreen" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget name="config" position="60,145" size="725,427" scrollbarMode="showOnDemand"/>
+		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
+		<widget source="status" render="Label" position="845,425" size="380,160" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+	</screen>
 	<!-- ********** CCcam Info ********** -->
 	<screen name="CCcamInfoMain" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
