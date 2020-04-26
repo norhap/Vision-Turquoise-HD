@@ -2708,7 +2708,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="PIG"/>
 		<ePixmap pixmap="icons/key_info.png" position="8,640" size="40,22" alphatest="blend"/>
 		<widget name="timerlist" position="58,150" size="727,210" itemHeight="70" setFont="Regular;15" transparent="1" enableWrapAround="1" zPosition="1"/>
-		<widget name="description" conditional="description" position="58,350" size="727,265" zPosition="10" font="xRegular;11" foregroundColor="#004ccbde" halign="center" valign="center" transparent="1"/>
+		<widget name="description" conditional="description" position="55,360" size="737,205" zPosition="10" font="Regular;16" foregroundColor="#004ccbde" halign="center" valign="center" transparent="1"/>
 	</screen>
 	<!-- ####### CDInfo ####### -->
 	<screen name="CDInfo" position="center,center" size="1130,560" title="CDInfo">
