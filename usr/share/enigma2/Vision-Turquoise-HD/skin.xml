@@ -346,7 +346,7 @@
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-         <widget source="ServiceEvent" render="poster" position="833,65" size="80,120" zPosition="4"/>
+         <widget source="ServiceEvent" render="poster" position="833,60" size="85,125" zPosition="4"/>
 		<widget source="ServiceEvent" render="DRRunningText" options="movetype=running,startpoint=0,startdelay=1000,wrap=0,always=0,repeat=2,oneshot=1" position="930,52" size="276,25" halign="center" font="Regular;21" foregroundColor="#004ccbde" backgroundColor="background" transparent="1" zPosition="2">
 			<convert type="EventName">Name</convert>
 		</widget>
