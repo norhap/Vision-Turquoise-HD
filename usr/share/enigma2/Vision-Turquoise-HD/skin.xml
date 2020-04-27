@@ -353,11 +353,11 @@
 		<widget source="ServiceEvent" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,steptime=90,wrap=1,always=0,repeat=2,oneshot=1" position="915,75" size="311,107" zPosition="2" font="Regular;21" halign="center" valign="center" foregroundColor="grey" backgroundColor="background" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<widget source="ServiceEvent" render="Label" position="840,188" size="67,27" zPosition="2" halign="left" font="Regular;18" noWrap="1" transparent="1" foregroundColor="#0000fafa" backgroundColor="background">
+		<widget source="ServiceEvent" render="Label" position="830,188" size="67,27" zPosition="2" halign="left" font="Regular;17" noWrap="1" transparent="1" foregroundColor="#0000fafa" backgroundColor="background">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="ServiceEvent" render="Label" position="883,188" zPosition="1" size="75,27" font="Regular;18" halign="left" noWrap="1" transparent="1" foregroundColor="#0000fafa" backgroundColor="background">
+		<widget source="ServiceEvent" render="Label" position="873,188" zPosition="1" size="75,27" font="Regular;17" halign="left" noWrap="1" transparent="1" foregroundColor="#0000fafa" backgroundColor="background">
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:-%H:%M</convert>
 		</widget>
