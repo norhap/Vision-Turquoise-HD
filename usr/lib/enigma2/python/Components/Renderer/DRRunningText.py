@@ -1,4 +1,4 @@
-# Embedded file name: /media/kieszen/EGAMI/build-4.2/builds/egami/release/8100s/tmp/work/all-oe-linux/enigma2-plugin-skincomponents-egskinscomponents/1.0+gitAUTOINC+9bdab478f6-r2/git/egami-common/usr/lib/enigma2/python/Components/Renderer/DRRunningText.py
+# -*- coding: utf-8 -*-
 from Renderer import Renderer
 from skin import parseColor, parseFont
 from enigma import eWidget, eCanvas, eLabel, eTimer, eRect, ePoint, eSize, gRGB, gFont, RT_HALIGN_LEFT, RT_HALIGN_CENTER, RT_HALIGN_RIGHT, RT_HALIGN_BLOCK, RT_VALIGN_TOP, RT_VALIGN_CENTER, RT_VALIGN_BOTTOM, RT_WRAP

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from Converter import Converter
 from Poll import Poll
 from Components.Element import cached
