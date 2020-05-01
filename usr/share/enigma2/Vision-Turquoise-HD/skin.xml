@@ -237,6 +237,71 @@
 		<widget name="ButtonOKtext" position="970,555" size="450,30" halign="left" foregroundColor="#0000fafa" zPosition="1" font="Regular;21" transparent="1"/>
 		<widget name="ButtonOK" pixmap="icons/key_ok.png" position="920,555" size="40,22" transparent="1" alphatest="on"/>
 	</screen>
+		<!-- ********** DEVICEMANAGER********** -->
+	<screen name="HddSetup"  position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget source="menu" render="Listbox" position="80,138" size="725,410" selectionPixmap="icons/ls700x38.png" scrollbarMode="showOnDemand">
+			<convert type="TemplatedMultiContent">
+				{"template": [
+				MultiContentEntryPixmapAlphaBlend(pos = (0, 0), size = (48, 48), png = 0),
+				MultiContentEntryText(pos = (75, 10), size = (200, 28), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
+				MultiContentEntryText(pos = (415, 10), size = (225, 28), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
+				],
+				"fonts": [gFont("Regular", 20)],
+				"itemHeight": 50
+				}
+			</convert>
+		</widget>
+	</screen>
+		<!-- ********** PARTITIONS********** -->
+	<screen name="HddPartitions" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget name="label_disk" position="80,185" font="Regular;20" halign="center" size="520,25" valign="center"/>
+		<widget source="menu" render="Listbox" position="80,138" size="725,410" scrollbarMode="showOnDemand">
+			<convert type="TemplatedMultiContent">
+				{"template": [
+				MultiContentEntryPixmapAlphaBlend(pos = (0, 0), size = (48, 48), png = 0),
+				MultiContentEntryText(pos = (65, 10), size = (360, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
+				MultiContentEntryText(pos = (435, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
+				],
+				"fonts": [gFont("Regular", 18)],
+				"itemHeight": 80
+				}
+			</convert>
+		</widget>
+	</screen>
+		<!-- ********** MOUNT********** -->
+	<screen name="HddMountDevice" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget source="yellow" render="Label" position="280,0" zPosition="1" size="140,40" font="Regular;18" halign="center" valign="center" backgroundColor="#a08500" transparent="1"/>
+		<widget name="menu" position="77,137" size="730,430" scrollbarMode="showOnDemand" selectionPixmap="icons/ls680x28.png" transparent="1"/>
+	</screen>
+		<!-- ********** DETALLES DEVICES INFO********** -->
+	<screen name="HddInfo" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget font="Regular;18" halign="left" name="model" position="80,135" size="540,25" valign="center"/>
+		<widget font="Regular;18" halign="left" name="serial" position="80,165" size="540,25" valign="center"/>
+		<widget font="Regular;18" halign="left" name="firmware" position="80,195" size="540,25" valign="center"/>
+		<widget font="Regular;18" halign="left" name="cylinders" position="80,135" size="540,25" valign="center"/>
+		<widget font="Regular;18" halign="left" name="heads" position="80,225" size="540,25" valign="center"/>
+		<widget font="Regular;18" halign="left" name="sectors" position="80,255" size="540,25" valign="center"/>
+		<widget font="Regular;18" halign="left" name="readDisk" position="80,285" size="540,25" valign="center"/>
+		<widget font="Regular;18" halign="left" name="readCache" position="80,315" size="540,25" valign="center"/>
+		<widget font="Regular;18" halign="left" name="temp" position="80,345" size="540,25" valign="center"/>
+		<widget name="config" position="80,140" size="705,425" transparent="1" scrollbarMode="showOnDemand"/>
+	</screen>
 		<!-- ********** Utilidades del Sistema LiberaMemoria********** -->
 	<screen name="liberarmemoria" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
