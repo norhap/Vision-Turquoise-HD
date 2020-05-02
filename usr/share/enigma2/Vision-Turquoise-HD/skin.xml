@@ -4414,11 +4414,10 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	<!-- ## YouTube PLAYER ## -->
 	<screen name="YouTubeMain" position="fill" flags="wfNoBorder">
 		<panel name="ScrollBarTemplate"/>
-		<panel name="Title"/>
 		<panel name="PantallaGenericaConfig"/>
+		<panel name="Title"/>
 		<panel name="WidgetNamePixmap_RG"/>
-		<ePixmap position="0,0" zPosition="0" size="1280,720" pixmap="menu/fr_main_channels.png"/>
-		<widget source="session.VideoPicture" render="Pig" position="838,112" size="382,218" zPosition="3" backgroundColor="#df0b1300"/>
+		<panel name="PIG"/>
 		<widget source="session.Event_Now" render="Progress" pixmap="icons/tv_b_bar.png" size="340,2" position="837,338" zPosition="5" backgroundColor="darkgrey" transparent="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
