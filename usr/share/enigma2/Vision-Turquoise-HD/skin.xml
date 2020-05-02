@@ -237,7 +237,7 @@
 		<widget name="ButtonOKtext" position="970,555" size="450,30" halign="left" foregroundColor="#0000fafa" zPosition="1" font="Regular;21" transparent="1"/>
 		<widget name="ButtonOK" pixmap="icons/key_ok.png" position="920,555" size="40,22" transparent="1" alphatest="on"/>
 	</screen>
-		<!-- ********** DEVICEMANAGER********** -->
+		<!-- ********** DEVICESMANAGER********** -->
 	<screen name="HddSetup"  position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
@@ -267,8 +267,8 @@
 			<convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryPixmapAlphaBlend(pos = (0, 0), size = (48, 48), png = 0),
-				MultiContentEntryText(pos = (65, 10), size = (360, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
-				MultiContentEntryText(pos = (435, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
+				MultiContentEntryText(pos = (65, 10), size = (530, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
+				MultiContentEntryText(pos = (600, 10), size = (100, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
 				],
 				"fonts": [gFont("Regular", 18)],
 				"itemHeight": 80
