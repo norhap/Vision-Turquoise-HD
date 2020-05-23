@@ -367,12 +367,19 @@
 		</widget>
 	</screen>
 	<!-- GUISkin -->
+	<!-- ####### MessageBox ####### -->
 	<screen name="autoresize" position="fill" flags="wfNoBorder">
 		<widget name="autoresize" position="20,20" size="560,300" transparent="1"/>
 	</screen>
+	<!-- ####### SubtitleDisplay ####### -->
+	<screen name="message" position="fill" flags="wfNoBorder">
+		<widget name="message" position="0,0" size="0,0" transparent="1"/>
+	</screen>
+	<!-- ####### ChoiceBox ####### -->
 	<screen name="description" position="fill" flags="wfNoBorder">
 		<widget name="description" position="20,20" size="560,300" transparent="1"/>
 	</screen>
+	<!-- ####### timerentry ####### -->
 	<screen name="timerentry" position="fill" flags="wfNoBorder">
 		<widget name="cancel" pixmap="menu/colorbarR.png" position="60,635" size="0,0" alphatest="blend" backgroundColor="#00030303"/>
 		<widget name="ok" position="410,635" size="0,0" backgroundColor="#00030303"/>

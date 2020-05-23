@@ -2689,7 +2689,9 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<sub name="Subtitle_Italic" font="Regular;40" foregroundColor="#00ffffff" shadowColor="#40101010" shadowOffset="-3,-3"/>
 	</subtitles>
 	<!-- ####### Subtitle Display ####### -->
-	<screen name="SubtitleDisplay" position="fill" zPosition="-1" flags="wfNoBorder" backgroundColor="transparent"/>
+	<screen name="SubtitleDisplay" position="fill" zPosition="-1" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="message"/>
+	</screen>
 	<!-- ####### TimerEdit ####### -->
 	<screen name="TimerEdit" position="center,100" size="1160,560" title="Timer Edit">
 		<ePixmap pixmap="menu/backbox.png" zPosition="-1" position="0,0" size="1160,560" alphatest="on"/>
