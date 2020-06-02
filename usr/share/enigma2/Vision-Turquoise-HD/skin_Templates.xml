@@ -430,19 +430,19 @@
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<eLabel text="sid" position="345,527" size="30,15" font="LCD;13" backgroundColor="#00070707" halign="center" transparent="1" zPosition="3"/>
-		<widget source="session.CurrentService" render="Label" position="370,527" size="50,50" backgroundColor="#00070707" foregroundColor="#0000fafa" font="Regular;16" halign="left" valign="top" zPosition="5" transparent="1">
+		<widget source="session.CurrentService" render="Label" position="370,528" size="50,50" backgroundColor="#00070707" foregroundColor="#0000fafa" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
 			<convert type="ServiceInfo">Sid</convert>
 		</widget>
 		<eLabel text="pmt" position="345,538" size="30,15" font="LCD;13" halign="center" backgroundColor="#00070707" transparent="1" zPosition="3"/>
-		<widget source="session.CurrentService" render="Label" position="370,538" size="50,50" backgroundColor="#00070707" foregroundColor="#0000fafa" font="Regular;16" halign="left" valign="top" zPosition="5" transparent="1">
+		<widget source="session.CurrentService" render="Label" position="370,540" size="50,50" backgroundColor="#00070707" foregroundColor="#0000fafa" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
 			<convert type="ServiceInfo">PmtPid</convert>
 		</widget>
 		<eLabel text="audio" position="857,526" size="40,50" font="LCD;13" halign="center" backgroundColor="#00070707" transparent="1" zPosition="3"/>
-		<widget source="session.CurrentService" render="Label" position="892,526" size="50,50" backgroundColor="#00070707" foregroundColor="#0000fafa" font="Regular;16" halign="left" valign="top" zPosition="5" transparent="1">
+		<widget source="session.CurrentService" render="Label" position="892,527" size="50,50" backgroundColor="#00070707" foregroundColor="#0000fafa" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
 			<convert type="ServiceInfo">AudioPid</convert>
 		</widget>
 		<eLabel text="video" position="857,538" size="40,50" font="LCD;13" halign="center" backgroundColor="#00070707" transparent="1" zPosition="3"/>
-		<widget source="session.CurrentService" render="Label" position="892,538" size="50,50" backgroundColor="#00070707" foregroundColor="#0000fafa" font="Regular;16" halign="left" valign="top" zPosition="5" transparent="1">
+		<widget source="session.CurrentService" render="Label" position="892,540" size="50,50" backgroundColor="#00070707" foregroundColor="#0000fafa" font="Regular;14" halign="left" valign="top" zPosition="5" transparent="1">
 			<convert type="ServiceInfo">VideoPid</convert>
 		</widget>
 	</screen>
