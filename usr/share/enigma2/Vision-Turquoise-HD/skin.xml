@@ -91,8 +91,8 @@
 	<!-- ####### HideVBILine embebido ####### -->
 	<screen name="HideVBILine" position="0,0" size="1280,2" backgroundColor="#00030303" flags="wfNoBorder">
 	</screen>
-	<!-- ####### MENU Y SUBMENUS PRINCIPALES ####### -->
-	 <screen name="Menu" position="fill" title="Editor de lista de cortes...">
+	<!-- ####### TRMPLATE PARA MENU Y SUBMENUS PRINCIPALES ####### -->
+	<screen name="Menu" position="fill" title="Editor de lista de cortes...">
 		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
 		<panel name="Title"/>
 		<panel name="ScrollBarTemplate"/>
@@ -109,6 +109,37 @@
 				}
 			</convert>
 		</widget>
+	</screen>
+	<!-- ####### MENUS Y SUBMENUS PRINCIPALES ####### -->
+	<screen name="menu_mainmenu" position="fill" title="Editor de lista de cortes...">
+		<panel name="Menu"/>
+	</screen>
+	<screen name="menu_information" position="fill" flags="wfNoBorder">
+		<panel name="Menu"/>
+	</screen>
+	<screen name="menu_setup" position="fill" flags="wfNoBorder">
+		<panel name="Menu"/>
+	</screen>
+	<screen name="menu_system" position="fill" flags="wfNoBorder">
+		<panel name="Menu"/>
+	</screen>
+	<screen name="menu_gui" position="fill" flags="wfNoBorder">
+		<panel name="Menu"/>
+	</screen>
+	<screen name="menu_video" position="fill" flags="wfNoBorder">
+		<panel name="Menu"/>
+	</screen>
+	<screen name="menu_expert" position="fill" flags="wfNoBorder">
+		<panel name="Menu"/>
+	</screen>
+	<screen name="menu_harddisk" position="fill" flags="wfNoBorder">
+		<panel name="Menu"/>
+	</screen>
+	<screen name="menu_shutdown" position="fill" flags="wfNoBorder">
+		<panel name="Menu"/>
+	</screen>
+	<screen name="menu_scan" position="fill" flags="wfNoBorder">
+		<panel name="Menu"/>
 	</screen>
 	<!-- **********MENU SORT********** -->
 	<screen name="MenuSort" position="fill" flags="wfNoBorder">
