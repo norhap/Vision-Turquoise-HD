@@ -2447,7 +2447,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget name="description" position="845,435" size="380,160" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
 	</screen>
 	<!--####### NumberZap ####### -->
-	<screen name="NumberZap" position="center,10" size="425,50" title="Channel" flags="wfNoBorder" backgroundColor="#0003424a">
+	<screen name="NumberZapPicon" position="center,10" size="425,50" title="Channel" flags="wfNoBorder" backgroundColor="#0003424a">
 		<eLabel position="0,0" size="425,1" backgroundColor="#0000fafa" zPosition="1"/>
 		<eLabel position="0,0" size="1,50" backgroundColor="#0000fafa" zPosition="1"/>
 		<eLabel position="0,49" size="425,1" backgroundColor="#0000fafa" zPosition="1"/>

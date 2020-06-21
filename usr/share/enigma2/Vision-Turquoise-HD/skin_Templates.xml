@@ -1,6 +1,5 @@
 <skin>
 	<!-- ####### TEMPLATES ####### -->
-	<!-- ####### SCROLLBAR BASE TEMPLATE ####### -->
 	<screen name="ScrollBarTemplate">
 	<!-- scrollbar background -->
 		<ePixmap position="785,120" zPosition="3" size="25,470" pixmap="icons/barra470.png" alphatest="blend" transparent="1"/>
