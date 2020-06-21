@@ -91,7 +91,7 @@
 	<!-- ####### HideVBILine embebido ####### -->
 	<screen name="HideVBILine" position="0,0" size="1280,2" backgroundColor="#00030303" flags="wfNoBorder">
 	</screen>
-	<!-- ####### TRMPLATE PARA MENU Y SUBMENUS PRINCIPALES ####### -->
+	<!-- ####### PANEL SOURCE MENU PARA MENUS Y SUBMENUS PRINCIPALES ####### -->
 	<screen name="Menu" position="fill" title="Editor de lista de cortes...">
 		<panel name="PantallaGenericaSinBarraColor2Pantallas"/>
 		<panel name="Title"/>
