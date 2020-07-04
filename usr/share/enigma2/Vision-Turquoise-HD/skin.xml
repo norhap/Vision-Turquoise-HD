@@ -3741,7 +3741,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ScrollBarTemplate"/>
 		<ePixmap position="934,416" zPosition="2" size="200,200" pixmap="menu/ico_sat.png" alphatest="blend" transparent="1"/>
 		<widget name="infolist" position="60,155" size="746,425" scrollbarMode="showOnDemand" transparent="1"/>
-		<widget source="session.CurrentService" render="Label" foregroundColor="#0000fafa" position="80,130" size="585,90" font="Regular;21" transparent="1" zPosition="1">
+		<widget source="session.CurrentService" render="Label" foregroundColor="#0000fafa" position="110,110" size="585,90" font="Regular;21" transparent="1" zPosition="1">
 			<convert type="ServiceInfo">HasHBBTV</convert>
 		</widget>
 	</screen>
