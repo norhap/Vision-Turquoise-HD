@@ -2680,7 +2680,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 				}
 			</convert>
 		</widget>
-		<widget source="description" render="Label" position="169,500" size="600,28" font="Regular;20" valign="center"/>
+		<widget source="description" render="Label" position="109,500" size="600,28" font="Regular;20" valign="center"/>
 	</screen>
 	<!-- ####### AÑADIR DE LISTA DE CANALES UN CANAL PARA AUTOTEMPORIZADOR (eventos en amarillo) ####### -->
 	<screen name="SimpleChannelSelection" position="fill" flags="wfNoBorder">
