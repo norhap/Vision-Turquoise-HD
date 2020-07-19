@@ -3257,12 +3257,8 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget name="description" position="845,430" size="380,180" zPosition="10" font="Regular;21" halign="center" valign="center" foregroundColor="#004ccbde" transparent="1"/>
 	</screen>
 	<!-- ####### TECLA VIDEO-> SCALE PANSCAM LETTERBOX ####### -->
-	<screen name="VideoMode" position="center,25" size="135,38" backgroundColor="#0003424a" flags="wfNoBorder" zPosition="2">
-		<eLabel position="0,0" size="135,1" backgroundColor="#0000fafa" zPosition="1"/>
-		<eLabel position="0,0" size="1,38" backgroundColor="#0000fafa" zPosition="1"/>
-		<eLabel position="0,37" size="135,1" backgroundColor="#0000fafa" zPosition="1"/>
-		<eLabel position="134,0" size="1,38" backgroundColor="#0000fafa" zPosition="1"/>
-		<widget name="videomode" position="15,7" size="140,25" backgroundColor="#0003424a" transparent="1" font="Regular;22"/>
+	<screen name="VideoMode" title="VideoMode" position="center,75" size="185,35" backgroundColor="#0003424a" zPosition="2">
+		<widget name="videomode" position="55,5" size="140,25" backgroundColor="#0003424a" transparent="1" font="Regular;22"/>
 	</screen>
 	<!--####### InputDeviceSelection (Dispositivos de Entrada) ####### -->
 	<screen name="InputDeviceSelection" position="fill" size="1280,720" flags="wfNoBorder">
