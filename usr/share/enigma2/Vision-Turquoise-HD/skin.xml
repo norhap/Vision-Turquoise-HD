@@ -6294,6 +6294,14 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="ExitPantallaPieTV"/>
 		<widget name="list" position="110,125" size="698,430" backgroundColor="#00030303" font="Regular;15" transparent="1"/>
 	</screen>
+	<screen name="VISIONImageManagerMenu" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<panel name="description-info"/>
+		<widget name="config" position="60,155" size="742,425" font="Regular;19" backgroundColor="#00030303" scrollbarMode="showAlways" scrollbarSliderForegroundColor="#00030303"/>
+	</screen>
 	<screen name="VISIONBackupManagerMenu" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
 		<panel name="ScrollBarTemplate"/>
@@ -6301,11 +6309,6 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="PIG"/>
 		<panel name="description-info"/>
 		<widget name="config" position="60,155" size="742,425" font="Regular;19" backgroundColor="#00030303" scrollbarMode="showAlways" scrollbarSliderForegroundColor="#00030303"/>
-		<widget name="HelpWindow" position="682,599" size="1,1" pixmap="buttons/vkey_icon.png" transparent="1" zPosition="1" alphatest="blend"/>
-		<widget source="VKeyIcon" render="Pixmap" pixmap="icons/key_text.png" position="640,680" zPosition="2" size="40,22" transparent="1" alphatest="on">
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget name="footnote" position="880,610" size="300,50" zPosition="1" font="Regular;21" foregroundColor="#00bab329" backgroundColor="#00030303" halign="center" transparent="1" valign="top"/>
 	</screen>
 	<screen name="XtraPluginsSelection" position="fill" flags="wfNoBorder">
 		<panel name="PantallaGenericaConfig"/>
