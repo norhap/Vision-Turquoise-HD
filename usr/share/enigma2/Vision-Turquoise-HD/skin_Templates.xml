@@ -515,8 +515,8 @@
 			<convert type="BTVDevicesInfo">UsbInfo</convert>
 		</widget>
 		<ePixmap position="833,600" zPosition="2" size="50,20" pixmap="icons/ico_swap.png" alphatest="blend"/>
-		<widget source="session.Event_Now" render="Progress" position="885,607" size="340,8" foregroundColor="#004ccbde" transparent="1" borderWidth="1" zPosition="6">
-			<convert type="BTVDevicesInfo">SwapTotal</convert>
+		<widget source="session.CurrentService" render="Progress" position="885,607" size="340,8" foregroundColor="#004ccbde" transparent="1" borderWidth="1" zPosition="6">
+			<convert type="BTVDevicesInfo">SwapLibre</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="885,611" size="450,26" halign="left" valign="center" font="Regular;17" transparent="1" backgroundColor="background" zPosition="6">
 			<convert type="BTVDevicesInfo">SwapLibre</convert>
