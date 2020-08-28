@@ -6515,4 +6515,36 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<ePixmap pixmap="buttons/key_info1.png" position="990,395" size="74,36" zPosition="2" alphatest="blend"/>
 		<widget source="labe14" render="Label" position="845,450" size="380,120" halign="center" font="Regular; 22" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" transparent="1"/>
 	</screen>
+	<!--####### VISION CLIENT MODE BOX ####### -->
+	<screen name="ClientModeBoxWizard" position="25,70" size="1225,720" zPosition="-1" backgroundColor="#03424a" title="Welcome...">
+		<ePixmap pixmap="buttons/key_red.png" position="830,15" zPosition="0" size="35,25" transparent="1" alphatest="blend"/>
+		<widget name="languagetext" zPosition="15" position="860,0" size="500,55" font="Regular;21" halign="left" valign="center" transparent="1"/>
+		<widget name="text" position="755,100" size="325,450" font="Regular;21" halign="center" valign="center" zPosition="15" transparent="1"/>
+		<widget name="step" position="765,575" size="450,40" foregroundColor="#0000fafa" borderWidth="1" zPosition="15" transparent="1"/>
+		<widget name="stepslider" position="765,575" size="450,40" foregroundColor="#0000fafa" borderWidth="1" zPosition="15" transparent="1"/>
+		<widget source="list" render="Listbox" position="10,25" size="750,600" transparent="1" backgroundColor="#00030303" scrollbarMode="showOnDemand" zPosition="3">
+			<convert type="StringList"/>
+		</widget>
+		<widget name="config" zPosition="1" position="10,25" size="750,600" backgroundColor="#03424a" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#0000fafa" transparent="1"/>
+	</screen>
+	<screen name="ClientModeBoxMenu" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget name="config" position="110,150" size="685,300" backgroundColor="#00030303" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00030303"/>
+		<widget source="text" render="Label" position="845,450" size="380,120" halign="center" font="Regular; 22" foregroundColor="#004ccbde" backgroundColor="#000c0d0e" transparent="1"/>
+		<ePixmap pixmap="buttons/key_info1.png" position="990,390" size="74,36" zPosition="2" alphatest="blend"/>
+		<widget source="VKeyIcon" render="Pixmap" pixmap="icons/key_text.png" position="65,150" zPosition="2" size="40,22" transparent="1" alphatest="on">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+	</screen>
+	<screen name="ClientModeBoxAbout" position="fill" flags="wfNoBorder">
+		<panel name="PantallaGenericaConfig"/>
+		<panel name="ScrollBarTemplate"/>
+		<panel name="Title"/>
+		<panel name="PIG"/>
+		<widget name="about" position="80,150" size="715,400" backgroundColor="#00030303" font="Regular; 25"/>
+		<ePixmap pixmap="icons/key_exit.png" position="8,640" size="40,22" alphatest="blend"/>
+	</screen>
 </skin>
