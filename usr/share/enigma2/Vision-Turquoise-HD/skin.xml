@@ -4391,13 +4391,13 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<widget source="job_name" render="Label" position="80,140" size="715,80" font="Regular;26" foregroundColor="#0000fafa" backgroundColor="#00030303" transparent="1"/>
-		<widget source="job_task" render="Label" position="80,340" size="585,80" font="Regular;26" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
-		<widget source="job_progress" render="Progress" position="80,300" borderWidth="1" size="560,40" pixmap="icons/jobview.png" borderColor="#00cccccc"/>
-		<widget source="job_progress" render="Label" position="10,305" size="250,32" font="xRegular;24" halign="center" transparent="1">
+		<widget source="job_task" render="Label" position="80,280" size="585,100" font="Regular;26" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1"/>
+		<widget source="job_progress" render="Progress" position="80,230" borderWidth="1" size="560,40" foregroundColor="#03424a" borderColor="#00cccccc"/>
+		<widget source="job_progress" render="Label" position="10,235" size="250,32" font="xRegular;24" halign="center" transparent="1">
 			<convert type="ProgressToText"/>
 		</widget>
-		<widget source="job_status" render="Label" position="80,380" size="585,26" font="Regular;25" backgroundColor="#00030303" transparent="1"/>
-		<widget name="config" position="80,320" size="585,24" scrollbarMode="showOnDemand" backgroundColor="#00030303" transparent="1"/>
+		<widget name="config" position="80,400" size="585,80" scrollbarMode="showOnDemand" backgroundColor="#00030303" transparent="1"/>
+		<widget source="job_status" render="Label" position="80,500" size="585,26" font="Regular;25" backgroundColor="#00030303" transparent="1"/>
 		<widget source="cancelable" render="Pixmap" pixmap="menu/colorbarR.png" position="65,630" size="140,40" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
 		</widget>
