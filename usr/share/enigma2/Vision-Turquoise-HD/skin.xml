@@ -6330,7 +6330,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<panel name="Title"/>
 		<panel name="PIG"/>
 		<widget name="lab1" position="80,145" size="670,50" backgroundColor="#00030303" font="Regular;21" zPosition="2" transparent="1" halign="center"/>
-		<widget name="list" position="80,230" size="727,350" selectionPixmap="icons/ls705x38.png" font="Regular;23" backgroundColor="#00030303" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1"/>
+		<widget name="list" position="80,230" size="727,350" selectionPixmap="icons/ls705x38.png" font="Regular;21" backgroundColor="#00030303" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1"/>
 		<widget name="backupstatus" position="835,460" size="390,25" foregroundColor="#004ccbde" font="Regular;21" backgroundColor="#00030303" transparent="1" halign="center" valign="center"/>
 		<applet type="onLayoutFinish">
 			self["list"].instance.setItemHeight(30)
