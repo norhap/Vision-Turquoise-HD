@@ -442,7 +442,7 @@
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-         <widget source="ServiceEvent" render="poster" position="833,60" size="85,125" zPosition="4"/>
+         <widget source="ServiceEvent" render="xtraPoster" position="833,60" size="85,125" zPosition="4"/>
 		<widget source="ServiceEvent" render="DRRunningText" options="movetype=running,startpoint=0,startdelay=1000,wrap=0,always=0,repeat=2,oneshot=1" position="930,52" size="276,25" halign="center" font="Regular;21" foregroundColor="#004ccbde" backgroundColor="background" transparent="1" zPosition="2">
 			<convert type="EventName">Name</convert>
 		</widget>
@@ -3415,6 +3415,7 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 	</screen>
 	<!-- **********INFOBAR OSD********** -->
 	<screen name="InfoBar" flags="wfNoBorder" position="fill" backgroundColor="transparent">
+		<panel name="poster_firstinfobar"/>
 		<ePixmap position="0,515" zPosition="1" size="1292,253" pixmap="icons/infobar_light.png" transparent="1"/>
 		<widget source="session.CurrentService" render="Label" position="420,524" size="420,31" zPosition="2" font="Regular;27" valign="center" halign="center" noWrap="1" transparent="1" foregroundColor="#004ccbde" backgroundColor="background">
 			<convert type="ServiceName">Name</convert>
@@ -3422,7 +3423,6 @@ self[&quot;list&quot;].instance.resize(eSize(*listsize))
 		<widget font="Regular;27" halign="left" position="317,597" render="DRRunningText" options="movetype=running,steptime=10,startpoint=0,startdelay=1000,wrap=0,always=0,repeat=2,oneshot=1" noWrap="1" size="640,29" source="session.Event_Now" foregroundColor="#0077d8e6" backgroundColor="background" transparent="1" zPosition="2">
 			<convert type="EventName">Name</convert>
 		</widget>
-		<widget source="session.Event_Now" render="poster" position="73,120" size="85,125" zPosition="4"/>
 		<widget source="session.Event_Now" render="Label" position="232,597" size="82,28" zPosition="2" halign="left" font="Regular;27" foregroundColor="#0077d8e6" backgroundColor="#00333333" transparent="1">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
