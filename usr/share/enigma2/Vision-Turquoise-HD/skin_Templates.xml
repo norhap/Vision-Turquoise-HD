@@ -623,10 +623,10 @@
 		<ePixmap position="1205,120" zPosition="1" size="45,22" pixmap="icons/key_exit.png" alphatest="blend"/>
 	</screen>
 	<!-- XTRAEVENT POSTER -->
-  <screen name="poster_firstinfobar">
-    <widget source="session.Event_Now" render="xtraPoster" position="70,125" size="132,200" zPosition="4"/>
-  </screen>
-  <screen name="poster_secondinfobar">
-    <widget source="session.Event_Next" render="xtraPoster" position="700,125" size="132,200" zPosition="4"/>
-  </screen>
+	<screen name="poster_firstinfobar">
+		<widget source="session.Event_Now" render="xtraPoster" position="70,125" size="132,200" zPosition="4"/>
+	</screen>
+	<screen name="poster_secondinfobar">
+		<widget source="session.Event_Next" render="xtraPoster" position="700,125" size="132,200" zPosition="4"/>
+	</screen>
 </skin>
