@@ -262,6 +262,7 @@
 		<widget name="key_blue" objectTypes="key_blue,Label,Button" position="650,650" size="150,45" backgroundColor="#000b0d0e" font="Regular;21" halign="center" valign="center" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="MainHelp_MovieSelection">
+		<panel name="poster_movieselection"/>
 		<ePixmap pixmap="menu/fr_mplayer.png" position="fill" zPosition="-1"/>
 		<widget source="global.CurrentTime" render="Label" position="870,43" size="160,40" zPosition="2" font="LCD;38" valign="top" halign="center" foregroundColor="#004ccbde" backgroundColor="#00030303" transparent="1">
 			<convert type="ClockToText">Format:%H:%M :%S</convert>
@@ -272,11 +273,11 @@
 		<widget name="waitingtext" position="415,90" size="435,20" font="Regular;21" foregroundColor="yellow" backgroundColor="#00030303" transparent="1" halign="center" valign="top"/>
 		<widget name="list" zPosition="1" position="55,162" size="853,350" scrollbarMode="showOnDemand" transparent="0"/>
 		<ePixmap position="885,112" zPosition="3" size="25,470" pixmap="icons/barra400.png" alphatest="blend" transparent="1"/>
-		<widget source="session.VideoPicture" render="Pig" position="903,150" size="320,165" zPosition="3" backgroundColor="#df0b1300"/>
-		<eLabel position="910,144" size="1,174" backgroundColor="#004ccbde" zPosition="3"/>
-		<eLabel position="1233,144" size="1,174" backgroundColor="#004ccbde" zPosition="3"/>
+		<widget source="session.VideoPicture" render="Pig" position="1020,150" size="208,165" zPosition="3" backgroundColor="#df0b1300"/>
+		<eLabel position="910,140" size="1,178" backgroundColor="#004ccbde" zPosition="3"/>
+		<eLabel position="1233,140" size="1,178" backgroundColor="#004ccbde" zPosition="3"/>
 		<eLabel position="910,317" size="324,1" backgroundColor="#004ccbde" zPosition="3"/>
-		<eLabel position="910,144" size="324,1" backgroundColor="#004ccbde" zPosition="3"/>
+		<eLabel position="910,140" size="324,1" backgroundColor="#004ccbde" zPosition="3"/>
 		<widget name="DescriptionBorder" position="10,400" size="503,0" zPosition="3" transparent="1"/>
 		<widget name="chosenletter" position="845,345" size="380,185" font="Regular;50" halign="center" valign="center" transparent="1" zPosition="4"/>
 		<widget name="movie_sort" position="55,110" size="35,20" pixmaps="icons/ask.png,icons/movielist.png,icons/quit.png,icons/pause.png,icons/playlist.png,icons/playlistquit.png,icons/loop.png,icons/rep.png"	zPosition="10" transparent="1" alphatest="on"/>
@@ -628,5 +629,8 @@
 	</screen>
 	<screen name="poster_secondinfobar">
 		<widget source="session.Event_Next" render="xtraPoster" position="700,125" size="132,200" zPosition="4"/>
+	</screen>
+	<screen name="poster_movieselection">
+		<widget source="Service" render="xtraPoster" position="915,150" size="115,165" zPosition="4"/>
 	</screen>
 </skin>
