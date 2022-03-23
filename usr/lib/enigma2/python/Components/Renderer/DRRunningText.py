@@ -225,7 +225,7 @@ class DRRunningText(Renderer):
 				text_width += 10
 			self.mStop = None
 			if self.lineHeight and self.direction in (TOP, BOTTOM):
-				text_height = max(text_height, (text_height + self.lineHeight - 1) / self.lineHeight * self.lineHeight)
+				text_height = max(text_height, (text_height + self.lineHeight - 1) / int(self.lineHeight * self.lineHeight))
 			if self.direction in (LEFT, RIGHT):
 				if not self.mAlways and text_width <= self.W:
 					return False
@@ -260,7 +260,7 @@ class DRRunningText(Renderer):
 							self.mStep = self.direction == RIGHT and abs(self.mStep) or -abs(self.mStep)
 					else:
 						if text_width == self.W:
-							text_width += max(2, text_width // 20)
+							text_width += max(2, int(text_width // 20))
 						self.A = self.W - text_width
 						self.B = self.X
 						if self.halign == LEFT:
@@ -305,7 +305,7 @@ class DRRunningText(Renderer):
 							self.mStep = abs(self.mStep)
 					else:
 						if text_height == self.H:
-							text_height += max(2, text_height // 40)
+							text_height += max(2, int(text_height // 40))
 						self.A = self.H - text_height
 						self.B = self.Y
 						if self.direction == TOP:
