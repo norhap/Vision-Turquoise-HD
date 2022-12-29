@@ -33,15 +33,15 @@
 	</colors>
 	<!-- **********Fonts********** -->
 	<fonts>
-		<font filename="fonts/Verdana_R.ttf" name="Regular" scale="85"/>
-		<font filename="fonts/digital-Bold.ttf" name="LCD2" scale="100"/>
-		<font filename="fonts/digital-watch.ttf" name="LCD" scale="100"/>
-		<font filename="fonts/nmsbd2.ttf" name="oledRegular" scale="90"/>
-		<font filename="tuxtxt.ttf" name="Console" scale="100"/>
-		<font filename="ae_AlMateen.ttf" name="Replacement" scale="90" replacement="1"/>
-		<font filename="nmsbd.ttf" name="Display" scale="100"/>
-		<font filename="nmsbd.ttf" name="xRegular" scale="100"/>
-		<font filename="DejaVuSans.ttf" name="DejaVuSans" scale="100"/>
+		<font filename="/usr/share/enigma2/Vision-Turquoise-HD/fonts/Verdana_R.ttf" name="Regular" scale="85"/>
+		<font filename="/usr/share/enigma2/Vision-Turquoise-HD/fonts/digital-Bold.ttf" name="LCD2" scale="100"/>
+		<font filename="/usr/share/enigma2/Vision-Turquoise-HD/fonts/digital-watch.ttf" name="LCD" scale="100"/>
+		<font filename="/usr/share/enigma2/Vision-Turquoise-HD/fonts/nmsbd2.ttf" name="oledRegular" scale="90"/>
+		<font filename="/usr/share/fonts/tuxtxt.ttf" name="Console" scale="100"/>
+		<font filename="/usr/share/fonts/ae_AlMateen.ttf" name="Replacement" scale="90" replacement="1"/>
+		<font filename="/usr/share/fonts/nmsbd.ttf" name="Display" scale="100"/>
+		<font filename="/usr/share/fonts/nmsbd.ttf" name="xRegular" scale="100"/>
+		<font filename="/usr/share/fonts/DejaVuSans.ttf" name="DejaVuSans" scale="100"/>
 	</fonts>
 	<windowstyle type="skinned" id="0">
 		<title offset="42,27" font="Regular;24"/>
@@ -59,25 +59,25 @@
 		<color name="WindowTitleBackground" color="black"/>
 	<!-- **********Main screen border png's********** -->
 	<borderset name="bsWindow">
-		<pixmap pos="bpTopLeft" filename="icons/bs_tl.png"/>
-		<pixmap pos="bpTop" filename="icons/bs_t.png"/>
-		<pixmap pos="bpTopRight" filename="icons/bs_tr.png"/>
-		<pixmap pos="bpLeft" filename="icons/bs_l.png"/>
-		<pixmap pos="bpRight" filename="icons/bs_r.png"/>
-		<pixmap pos="bpBottomLeft" filename="icons/bs_bl.png"/>
-		<pixmap pos="bpBottom" filename="icons/bs_b.png"/>
-		<pixmap pos="bpBottomRight" filename="icons/bs_br.png"/>
+		<pixmap pos="bpTopLeft" filename="Vision-Turquoise-HD/icons/bs_tl.png"/>
+		<pixmap pos="bpTop" filename="Vision-Turquoise-HD/icons/bs_t.png"/>
+		<pixmap pos="bpTopRight" filename="Vision-Turquoise-HD/icons/bs_tr.png"/>
+		<pixmap pos="bpLeft" filename="Vision-Turquoise-HD/icons/bs_l.png"/>
+		<pixmap pos="bpRight" filename="Vision-Turquoise-HD/icons/bs_r.png"/>
+		<pixmap pos="bpBottomLeft" filename="Vision-Turquoise-HD/icons/bs_bl.png"/>
+		<pixmap pos="bpBottom" filename="Vision-Turquoise-HD/icons/bs_b.png"/>
+		<pixmap pos="bpBottomRight" filename="Vision-Turquoise-HD/icons/bs_br.png"/>
 	</borderset>
 	<borderset name="bsListboxEntry">
-		<pixmap pos="bpTop" filename="icons/def-bar.png"/>
-		<pixmap pos="bpBottom" filename="icons/def-bar.png"/>
+		<pixmap pos="bpTop" filename="Vision-Turquoise-HD/icons/def-bar.png"/>
+		<pixmap pos="bpBottom" filename="Vision-Turquoise-HD/icons/def-bar.png"/>
 	</borderset>
 	</windowstyle>
 	<switchpixmap>
 		<pixmap name="menu_on" filename="skin_default/icons/menu_on.png"/>
 		<pixmap name="menu_off" filename="skin_default/icons/menu_off.png"/>
 	</switchpixmap>
-	<include filename="skin_Templates.xml"/>
+	<include filename="Vision-Turquoise-HD/skin_Templates.xml"/>
 
 	<!-- **********Menu Horizontal********** -->
 	<screen name="Animmain" position="0,575" size="1280,265" title="Mainmenu">
